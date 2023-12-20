@@ -1,5 +1,1 @@
-# Репозиторий для учебных материалов
-
-# Технологии, которые я хочу попробовать в разработке
-
-Add an awesome feature ([#2])
+## [Technologies that I want to try in development - issue](../../issues/3)
