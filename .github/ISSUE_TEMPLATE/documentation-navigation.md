@@ -1,6 +1,6 @@
 ---
 name: Documentation Navigation
-description : 
+about : 
 ---
 
 **Navigation**:
