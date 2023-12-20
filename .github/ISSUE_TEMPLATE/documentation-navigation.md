@@ -1,6 +1,6 @@
 ---
 name: Documentation Navigation
-about : 
+about: Навигация для документации
 ---
 
 **Navigation**:
