@@ -1,1 +1,1 @@
-## [Technologies that I want to try in development - issue](../../issues/3)
+## [Technologies that I want to try in development - issue](../../issues/2)
