@@ -5,6 +5,6 @@ about: Навигация
 
 **Navigation**:
 &nbsp;
-- [Description](Link to comment with description)
-- [Materials](Link to comment with materials)
-- [My experience](Link to comment with experience)
+- #27 Previous page (issue) in hierarchy
+  - ***Current Isuue Title*** (CURRENT PAGE) 📄 
+    - #25 - Next page (issue) in hierarchy 
