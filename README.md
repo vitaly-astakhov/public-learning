@@ -4,4 +4,6 @@ ___
 
 ### [Articles for reading (Issue #23)](../../issues/23)
 ### [Books and Studies for reading (Issue #42)](../../issues/42)
+___
 
+### [Career, Soft Skills (Issue #62)](../../issues/62)
