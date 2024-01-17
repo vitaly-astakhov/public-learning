@@ -1,4 +1,4 @@
-### [Technologies that I want to try in development (Issue #1)](../../issues/1)
+### [Learning material (Issue #1)](../../issues/1)
 ### [Languages (Issue #45) ](../../issues/45)
 ___
 
