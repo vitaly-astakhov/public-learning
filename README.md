@@ -1,5 +1,6 @@
 ### [Learning material (Issue #1)](../../issues/1)
 ### [Programming Languages (Issue #45) ](../../issues/45)
+### [Algorithms (Issue #79) ](../../issues/79)
 ___
 
 ### [Articles for reading (Issue #23)](../../issues/23)
