@@ -28,7 +28,7 @@ ___
 - [ ] [HTTP/3 From A To Z: Core Concepts](https://www.smashingmagazine.com/2021/08/http3-core-concepts-part1/)
   - [ ] [HTTP/3: Performance Improvements (Part 2)](https://www.smashingmagazine.com/2021/08/http3-performance-improvements-part2/)
   - [ ] [HTTP/3: Practical Deployment Options (Part 3)](https://www.smashingmagazine.com/2021/09/http3-practical-deployment-options-part3/)
-
+- [ ] [Why I Tend Not To Use Content Negotiation](https://htmx.org/essays/why-tend-not-to-use-content-negotiation/)
 
 ## [Concepts](./concepts/index.md) 📂
 - [Messages](./concepts/messages.md) 📂
