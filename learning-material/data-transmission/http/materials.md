@@ -3,7 +3,7 @@
 ## Documentation
 - [ ] [RFC 9110 - HTTP Semantics](https://www.rfc-editor.org/rfc/rfc9110)🚧WIP. Пропустил секции: [HTTP Authentication](https://www.rfc-editor.org/rfc/rfc9110#name-http-authentication),
   - [x] [RFC 5789 - PATCH Method for HTTP](https://www.rfc-editor.org/rfc/rfc5789)
-- [ ] [RFC 9111 - HTTP Caching](https://datatracker.ietf.org/doc/rfc9111/)
+- [x] [RFC 9111 - HTTP Caching](https://datatracker.ietf.org/doc/rfc9111/)
 - [ ] [RFC 9112 - HTTP/1.1](https://www.rfc-editor.org/rfc/rfc9112)
   - [ ] [Hypertext Transfer Protocol (HTTP/1.1): Authentication](https://www.rfc-editor.org/rfc/rfc7235)
   - [ ] [The 'Basic' HTTP Authentication Scheme](https://www.rfc-editor.org/rfc/rfc7617)
