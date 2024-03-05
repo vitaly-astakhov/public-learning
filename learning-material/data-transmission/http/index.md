@@ -4,12 +4,12 @@
 
 ### Designations
 - 🎩 - заголовок (**HTTP Header**)
-- 📂 - внешний файл
+- 📂 - внутренний файл
 - ➡️ - запрос (**request**)
 - ⬅️ - ответ (**response**)
 
 ## Navigation
 
-### [Materials](./materials.md)
-### [Notes](./notes.md)
-### [Weak Points](./weak-points.md)
+### [Materials 📂](./materials.md)
+### [Notes 📂](./notes.md)
+### [Weak Points 📂](./weak-points.md)

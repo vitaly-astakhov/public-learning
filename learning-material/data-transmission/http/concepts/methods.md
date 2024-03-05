@@ -6,7 +6,7 @@ Request method вызывает действие, которое должно б
 Стандартные методы: GET, HEAD, POST, PUT, DELETE, CONNECT, OPTIONS, TRACE
 Нестандартные, но зарегистрированные методы: [PATCH](https://www.rfc-editor.org/rfc/rfc5789), PRI (HTTP/2)
 
-Полный список методов: https://www.iana.org/assignments/http-methods/http-methods.xhtml
+Полный список зарегистрированных методов запроса: https://www.iana.org/assignments/http-methods/http-methods.xhtml
 ___
 
 Методы считаются "безопасными" (safe), если их семантика означает только доступ к чтению целевого ресурса. Безопасными методами являются: GET, HEAD, OPTIONS, and TRACE.

@@ -1,6 +1,6 @@
 # Weak points
 
-### [Intermediaries](https://www.rfc-editor.org/rfc/rfc9110#name-intermediaries) - см. [My notes](./notes.md)
+### [Intermediaries](https://www.rfc-editor.org/rfc/rfc9110#name-intermediaries) - см. [My notes 📂](./notes.md)
 Можно изучить:
   - https://stackoverflow.com/questions/7155529/how-does-http-proxy-work
   - [Load Balancer и Reverse Proxy в микросервисной архитектуре](https://habr.com/ru/companies/otus/articles/741136/)

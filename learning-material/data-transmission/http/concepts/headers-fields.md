@@ -1,5 +1,7 @@
 # Headers fields
 
+Полный список зарегистрированных HTTP полей: https://www.iana.org/assignments/http-fields/http-fields.xhtml
+
 ## Context fields
 
 ## [Request Context Fields](https://www.rfc-editor.org/rfc/rfc9110#name-request-context-fields)
@@ -10,15 +12,15 @@
 
 ### [From](https://www.rfc-editor.org/rfc/rfc9110#name-from) 🎩
 
-### [Referer](./referer.md) - (Отправляется только агентом пользователя) 🎩
-[Подробнее](./referer.md) 📂
+### [Referer] - (Отправляется только агентом пользователя) 🎩
+[Подробнее 📂](./referer.md)
 ____
 
 ### [TE](https://www.rfc-editor.org/rfc/rfc9110#name-te) - Transfer Encodings (Отправляется только агентом пользователя) 🎩
 - **TE** (transfer encodings) - Это поле указывает кодировки передачи, которые агент пользователя (**user agent**), готов принять.
 
 ### [User-Agent](https://www.rfc-editor.org/rfc/rfc9110#name-user-agent) - Агент Пользователя (Отправляется только агентом пользователя)
-[Подробнее](./user-agent.md) 📂
+[Подробнее 📂](./user-agent.md)
 
 ## [Response Context Fields](https://www.rfc-editor.org/rfc/rfc9110#name-response-context-fields)
 
