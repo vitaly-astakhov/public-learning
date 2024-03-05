@@ -1,12 +1,14 @@
-### Navigation:
-- [ ] [Hypertext Transfer Protocol (HTTP)](./http/index.md)
-  - [ ] Representational State Transfer (REST)
-  - [ ] GraphQL
-- [ ] [WebSocket](./websocket/index.md)
+# Data transmission
+
+- [ ] [Hypertext Transfer Protocol (HTTP) 📂](./http/index.md)
+  - [ ] [Representational State Transfer (REST) 📂](./architecture/REST/index.md)
+  - [ ] [GraphQL 📂](./architecture/graphql/index.md)
+- [ ] [WebSocket 📂](./websocket/index.md)
 - [ ] WebTransport
-- [ ] [RPC](./RPC/index.md)
+- [ ] [RPC 📂](./RPC/index.md)
   - [ ] gRPC
   - [ ] tRPC
-___
 
-### [Materials](./materials.md)
+## Navigation
+
+### [Materials 📂](./materials.md)

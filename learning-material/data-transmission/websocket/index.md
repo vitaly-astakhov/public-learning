@@ -2,5 +2,5 @@
 
 ## Navigation
 
-### [Materials](./materials.md)
-### [My notes](./notes.md)
+### [Materials 📂](./materials.md)
+### [My notes 📂](./notes.md)

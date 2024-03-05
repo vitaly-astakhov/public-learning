@@ -1,5 +1,3 @@
-# RPC
-
-## Navigation
+# GraphQL
 
 ### [Materials 📂](./materials.md)

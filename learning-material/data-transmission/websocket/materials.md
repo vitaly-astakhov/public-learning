@@ -1,10 +1,10 @@
 # Materials
 
 ## Documentation
-- [x] [RFC 6455 - The WebSocket Protocol](https://www.rfc-editor.org/rfc/rfc6455)
-- [ ] [RFC 7692 - Compression Extensions for WebSocket](https://www.rfc-editor.org/rfc/rfc7692)
-- [ ] [RFC 8441 - Bootstrapping WebSockets with HTTP/2](https://www.rfc-editor.org/rfc/rfc8441) - прочитать после того как я прочитаю документацию по **HTTP/2**
-- [ ] [RFC 9920 - Bootstrapping WebSockets with HTTP/3](https://www.rfc-editor.org/rfc/rfc9220)
+- [x] [IETF RFC 6455 - The WebSocket Protocol](https://www.rfc-editor.org/rfc/rfc6455)
+- [ ] [IETF RFC 7692 - Compression Extensions for WebSocket](https://www.rfc-editor.org/rfc/rfc7692)
+- [ ] [IETF RFC 8441 - Bootstrapping WebSockets with HTTP/2](https://www.rfc-editor.org/rfc/rfc8441) - прочитать после того как я прочитаю документацию по **HTTP/2**
+- [ ] [IETF RFC 9920 - Bootstrapping WebSockets with HTTP/3](https://www.rfc-editor.org/rfc/rfc9220)
 - [ ] [WhatWG - WebSockets Standard](https://websockets.spec.whatwg.org)
 - [x] [MDN - The WebSocket API](https://developer.mozilla.org/en-US/docs/Web/API/WebSocket)
 
