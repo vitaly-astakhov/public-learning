@@ -27,6 +27,10 @@ ___
 - [ ] [IETF RFC 9440 - Client-Cert HTTP Header Field](https://www.rfc-editor.org/rfc/rfc9440.html)
 - [ ] [IETF RFC 9530 - Digest Fields](https://datatracker.ietf.org/doc/rfc9530/)
 - [ ] [IETF RFC 9421 - HTTP Message Signatures](https://datatracker.ietf.org/doc/rfc9421/)
+- [ ] [IETF DRAFT - Structured Field Values for HTTP](https://www.ietf.org/archive/id/draft-ietf-httpbis-sfbis-05.html)
+- [ ] [IETF RFC 8297 An HTTP Status Code for Indicating Hints](https://datatracker.ietf.org/doc/html/rfc8297)
+- [ ] [IETF DRAFT - Secondary Certificate Authentication of HTTP Servers](https://www.ietf.org/archive/id/draft-egorbaty-httpbis-secondary-server-certs-01.html)
+- [ ] [IETF DRAFT - Resumable Uploads for HTTP](https://www.ietf.org/archive/id/draft-ietf-httpbis-resumable-upload-03.html)
 
 
 ## Articles
@@ -38,11 +42,25 @@ ___
 - [ ] [HTTP Cache](https://www.chromium.org/developers/design-documents/network-stack/http-cache/)
 - [ ] [What is Idempotency?](https://blog.dreamfactory.com/what-is-idempotency)
 
-## [Concepts](./concepts/index.md) 📂
-- [Messages](./concepts/messages.md) 📂
-- [Methods](./concepts/methods.md) 📂
-- [Web Origin](./concepts/web-origin.md) 📂
-- [Referer](./concepts/referer.md) 📂
-- [Representation Data](./concepts/representation-data.md) 📂
-- [Cache](./concepts/cache.md) 📂
-- [Header Fields](./concepts/headers-fields.md) 📂
+## [Concepts 📂](./concepts/index.md)
+- [Messages 📂](./concepts/messages.md)
+- [User Agent 📂](./concepts/user-agent.md)
+- [Intermediaries 📂](./concepts/intermediaries.md)
+- [Methods 📂](./concepts/methods.md)
+- [Web Origin 📂](./concepts/web-origin.md)
+- [Referer 📂](./concepts/referer.md)
+- [Representation Data 📂](./concepts/representation-data.md)
+- [Header Fields 📂](./concepts/headers-fields.md)
+- [Content Negotiation 📂](./concepts/content-negotiation.md)
+- [Validation 📂](./concepts/validation.md)
+- [Conditional Requests 📂](./concepts/conditional-requests.md)
+- [Partial Content 📂](./concepts/partial-content.md)
+- [Status Codes 📂](./concepts/status-codes.md)
+- [Cache 📂](./concepts/cache.md)
+- [State Management Mechanism 📂](./concepts/state-management-mechanism.md)
+
+## Versions
+- [HTTP/1.1 📂](./versions/http-1.1.md)
+- [HTTP/2 📂](./versions/http-2.md)
+- [HTTP/3 📂](./versions/http-3.md)
+- [Differences 📂](./versions/differences.md)
