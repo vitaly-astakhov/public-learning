@@ -22,40 +22,10 @@
 - [`Content-Language`](https://www.rfc-editor.org/rfc/rfc9110#section-8.5)
 - [`Content-Type`](https://www.rfc-editor.org/rfc/rfc9110#section-8.3)
 
-[forbidden request-header](https://fetch.spec.whatwg.org/#forbidden-request-header):
-
-Это поля считаются запрещенными, так что их нельзя добавить или изменен программно, поэтому пользовательский агент сохраняет полный контроль над ними.
-
-- `Accept-Charset`
-- `Accept-Encoding`
-- `Access-Control-Request-Headers`
-- `Access-Control-Request-Method`
-- `Connection`
-- [`Content-Length`](https://www.rfc-editor.org/rfc/rfc9110#name-content-length)
-- `Cookie`
-- `Cookie2`
-- `Date`
-- `DNT`
-- `Expect`
-- `Host`
-- `Keep-Alive`
-- `Origin`
-- `Referer`
-- `TE`
-- `Trailer`
-- `Transfer-Encoding`
-- `Upgrade`
-- `Via`
-- `Set-Cookie`
-- `Proxy-`
-- `Sec-`
-
 
 ### Response
 
 ### [CORS-safelisted response-header name](https://fetch.spec.whatwg.org/#cors-safelisted-response-header-name)
-
-
 
 - [`Cache-Control`](https://www.rfc-editor.org/rfc/rfc9111#name-cache-control)
 - [`Content-Language`](https://www.rfc-editor.org/rfc/rfc9110#section-8.5)
@@ -65,7 +35,3 @@
 - [`Last-Modified`](https://www.rfc-editor.org/rfc/rfc9110.html#name-last-modified)
 - [`Pragma`](https://www.rfc-editor.org/rfc/rfc9111#name-pragma)
 - Любое другое поле, за исключением **forbidden response-header name**
-
-[**forbidden response-header name**](https://fetch.spec.whatwg.org/#forbidden-response-header-name):
-- "Set-Cookie"
-- "Set-Cookie2"
