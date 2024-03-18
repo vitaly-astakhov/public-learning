@@ -40,6 +40,8 @@ ___
 
 `Last-Modified: Fri, 23 Feb 2024 21:47:42 GMT`
 
+При работе в HTML значение `Last-Modified` можно получить через аттрибут документа `document.lastModified`. Подробнее: [HTML spec](https://html.spec.whatwg.org/multipage/dom.html#dom-document-lastmodified).
+
 ### [Etag] = Entity Tag - Метка сущности 🎩️️⬅️
 
 **Etag** - поле, которое предоставляет текущий тег сущности, выбранное представление ([selected representation](https://www.rfc-editor.org/rfc/rfc9110.html#selected.representation)) было изменено в последний раз.
