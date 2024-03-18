@@ -1,8 +1,8 @@
 # Early Hints (Ранние подсказки)
 
 ## Documentation
-- [x] [IETF RFC 8297 An HTTP Status Code for Indicating Hints](https://datatracker.ietf.org/doc/html/rfc8297)
-- [ ] [WHATWG - HTML Spec - Early hints](https://html.spec.whatwg.org/multipage/semantics.html#early-hints)
+- [IETF RFC 8297 An HTTP Status Code for Indicating Hints](https://datatracker.ietf.org/doc/html/rfc8297)
+- [WHATWG - HTML Spec - Early hints](https://html.spec.whatwg.org/multipage/semantics.html#early-hints)
 
 ## Articles
 - [ ] [Early Hints Support on Navigation Responses](https://docs.google.com/document/d/1gCh_CnfrJq_VL7aGoq6skc7sn4yn5pKsM0gkHe5B9go/edit#heading=h.yh1rfx1p5ocs)
