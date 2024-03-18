@@ -18,6 +18,7 @@ ___
 - [x] [W3C - Referrer Policy](https://w3c.github.io/webappsec-referrer-policy/)
 - [ ] [WHATWG - Fetch Standard](https://fetch.spec.whatwg.org)
 - [ ] [W3C - Content Security Policy Level 3](https://www.w3.org/TR/CSP3/)
+- [ ] [IETF RFC 6797 - HTTP Strict Transport Security (HSTS)](https://datatracker.ietf.org/doc/html/rfc6797)
 - [ ] [W3C Community - Client Hints Infrastructure](https://wicg.github.io/client-hints-infrastructure)
 - [ ] [IETF RFC 8942 - HTTP Client Hints](https://www.rfc-editor.org/rfc/rfc8942)
 - [ ] [W3C - Reporting API](https://www.w3.org/TR/reporting-1/)
