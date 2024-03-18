@@ -1,11 +1,11 @@
 # Materials
 
 ## Documentation
-- [x] [IETF RFC 9110 - HTTP Semantics](https://www.rfc-editor.org/rfc/rfc9110)🚧WIP. Пропустил секцию: [HTTP Authentication](https://www.rfc-editor.org/rfc/rfc9110#name-http-authentication)
+- [x] [IETF RFC 9110 - HTTP Semantics](https://www.rfc-editor.org/rfc/rfc9110) - Пропустил секцию: [HTTP Authentication](https://www.rfc-editor.org/rfc/rfc9110#name-http-authentication)
   - [x] [IETF RFC 5789 - PATCH Method for HTTP](https://www.rfc-editor.org/rfc/rfc5789)
-- [x] [IETF RFC 9111 - HTTP Caching](https://datatracker.ietf.org/doc/rfc9111/)
-  - [ ] [IETF RFC 8246 -  HTTP Immutable Responses](https://datatracker.ietf.org/doc/rfc8246)
-  - [ ] [IETF RFC 5861 -  HTTP Cache-Control Extensions for Stale Content](https://datatracker.ietf.org/doc/rfc5861)
+- [x] [IETF RFC 9111 - HTTP Caching](https://datatracker.ietf.org/doc/rfc9111/) - [[**Cache** 📂](./concepts/cache.md)]
+  - [ ] [IETF RFC 8246 - HTTP Immutable Responses](https://datatracker.ietf.org/doc/rfc8246)
+  - [ ] [IETF RFC 5861 - HTTP Cache-Control Extensions for Stale Content](https://datatracker.ietf.org/doc/rfc5861)
 - [ ] [IETF RFC 9112 - HTTP/1.1](https://www.rfc-editor.org/rfc/rfc9112)
   - [ ] [Hypertext Transfer Protocol (HTTP/1.1): Authentication](https://www.rfc-editor.org/rfc/rfc7235)
   - [ ] [The 'Basic' HTTP Authentication Scheme](https://www.rfc-editor.org/rfc/rfc7617)
@@ -14,24 +14,27 @@
 - [ ] [IETF RFC 9114 - HTTP/3](https://www.rfc-editor.org/rfc/rfc9114)
 - [ ] [IETF RFC 9205 - Building Protocols with HTTP](https://datatracker.ietf.org/doc/rfc9205/)
 ___
-- [x] [IETF RFC 6454 - The Web Origin Concept](https://datatracker.ietf.org/doc/rfc6454/)
-- [x] [W3C - Referrer Policy](https://w3c.github.io/webappsec-referrer-policy/)
-- [ ] [WHATWG - Fetch Standard](https://fetch.spec.whatwg.org)
+- [x] [IETF RFC 6454 - The Web Origin Concept](https://datatracker.ietf.org/doc/rfc6454/) - [[**Web Origin** 📂](./concepts/web-origin.md)]
+- [x] [W3C - Referrer Policy](https://w3c.github.io/webappsec-referrer-policy/) - [[Referrer 📂](./concepts/referrer.md)]
+- [ ] [WHATWG - Fetch Standard](https://fetch.spec.whatwg.org) - [[**Fetch API** 📂](./fetch-api/index.md)] 🚧 WIP Остановился на секции [4. Fetching](https://fetch.spec.whatwg.org/#fetching), вернусь, когда прочитаю секцию [8 Web application APIs](https://html.spec.whatwg.org/multipage/webappapis.html#webappapis) HTML спецификации, чтобы лучше понимать некоторые концепции алгоритма "**fetching**".
+- [x] [W3C - Fetch Metadata Request Headers](https://www.w3.org/TR/fetch-metadata/) - [[**Fetch Metadata** 📂](./fetch-api/fetch-metadata.md)]
+- [x] [IETF *DRAFT* - Cookies: HTTP State Management Mechanism](https://www.ietf.org/archive/id/draft-ietf-httpbis-rfc6265bis-13.html) - [[**State Management** 📂](./concepts/state-management.md)]
 - [ ] [W3C - Content Security Policy Level 3](https://www.w3.org/TR/CSP3/)
 - [ ] [IETF RFC 6797 - HTTP Strict Transport Security (HSTS)](https://datatracker.ietf.org/doc/html/rfc6797)
-- [ ] [W3C Community - Client Hints Infrastructure](https://wicg.github.io/client-hints-infrastructure)
 - [ ] [IETF RFC 8942 - HTTP Client Hints](https://www.rfc-editor.org/rfc/rfc8942)
+- [ ] [W3C Community - Client Hints Infrastructure](https://wicg.github.io/client-hints-infrastructure)
+- [ ] [W3C Community - User-Agent Client Hints](https://wicg.github.io/ua-client-hints/)
 - [ ] [W3C - Reporting API](https://www.w3.org/TR/reporting-1/)
 - [ ] [IETF RFC 9209 - The Proxy-Status HTTP Response Header Field](https://datatracker.ietf.org/doc/rfc9209/)
-- [ ] [W3C - Fetch Metadata Request Headers](https://www.w3.org/TR/fetch-metadata/)
 - [ ] [IETF RFC 9218 - Extensible Prioritization Scheme for HTTP](https://www.rfc-editor.org/rfc/rfc9218.html)
 - [ ] [IETF RFC 9440 - Client-Cert HTTP Header Field](https://www.rfc-editor.org/rfc/rfc9440.html)
 - [ ] [IETF RFC 9530 - Digest Fields](https://datatracker.ietf.org/doc/rfc9530/)
 - [ ] [IETF RFC 9421 - HTTP Message Signatures](https://datatracker.ietf.org/doc/rfc9421/)
-- [ ] [IETF DRAFT - Structured Field Values for HTTP](https://www.ietf.org/archive/id/draft-ietf-httpbis-sfbis-05.html)
-- [x] [IETF RFC 8297 An HTTP Status Code for Indicating Hints](https://datatracker.ietf.org/doc/html/rfc8297) [Early Hints 📂](./concepts/early-hints.md)
-- [ ] [IETF DRAFT - Secondary Certificate Authentication of HTTP Servers](https://www.ietf.org/archive/id/draft-egorbaty-httpbis-secondary-server-certs-01.html)
-- [ ] [IETF DRAFT - Resumable Uploads for HTTP](https://www.ietf.org/archive/id/draft-ietf-httpbis-resumable-upload-03.html)
+- [ ] [IETF *DRAFT* - Structured Field Values for HTTP](https://www.ietf.org/archive/id/draft-ietf-httpbis-sfbis-05.html)
+- [x] [IETF RFC 8297 An HTTP Status Code for Indicating Hints](https://datatracker.ietf.org/doc/html/rfc8297) - [[**Early Hints** 📂](./concepts/early-hints.md)]
+- [ ] [IETF *DRAFT* - Secondary Certificate Authentication of HTTP Servers](https://www.ietf.org/archive/id/draft-egorbaty-httpbis-secondary-server-certs-01.html)
+- [ ] [IETF *DRAFT* - Resumable Uploads for HTTP](https://www.ietf.org/archive/id/draft-ietf-httpbis-resumable-upload-03.html)
+- [ ] [W3C - Permissions Policy](https://w3c.github.io/webappsec-permissions-policy/)
 
 
 ## Articles
@@ -49,7 +52,7 @@ ___
 - [Intermediaries 📂](./concepts/intermediaries.md)
 - [Methods 📂](./concepts/methods.md)
 - [Web Origin 📂](./concepts/web-origin.md)
-- [Referer 📂](./concepts/referer.md)
+- [Referrer 📂](./concepts/referrer.md)
 - [Representation Data 📂](./concepts/representation-data.md)
 - [Header Fields 📂](./concepts/headers-fields.md)
 - [Content Negotiation 📂](./concepts/content-negotiation.md)
@@ -58,7 +61,7 @@ ___
 - [Partial Content 📂](./concepts/partial-content.md)
 - [Status Codes 📂](./concepts/status-codes.md)
 - [Cache 📂](./concepts/cache.md)
-- [State Management Mechanism 📂](./concepts/state-management-mechanism.md)
+- [State Management 📂](./concepts/state-management.md)
 
 ## Versions
 - [HTTP/1.1 📂](./versions/http-1.1.md)
