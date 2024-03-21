@@ -106,7 +106,7 @@ const headers = new Headers([
 
 ## Fields
 
-### [Origin 📂](../concepts/web-origin.md) 🎩➡️
+### [Origin 📂](../topics/web-origin.md) 🎩➡️
 
 Поле `Origin` добавляется к запросу, в некоторых случаях:
 - Когда ожидается, что ответ будет помечен как ‘загрязненный’ ([**response tainting**](https://fetch.spec.whatwg.org/#concept-request-response-tainting)) согласно режиму `cors`.

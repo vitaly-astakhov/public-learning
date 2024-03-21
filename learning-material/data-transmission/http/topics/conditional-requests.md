@@ -1,4 +1,4 @@
-# Conditional Requests
+# [Conditional Requests](https://www.rfc-editor.org/rfc/rfc9110.html#section-13)
 
 **Условный запрос (Conditional Request)** - это HTTP-запрос с одним или несколькими полями заголовка запроса, которые указывают на предварительные условия (**preconditions**), которые должны соблюдаться перед применением метода запроса к целевому ресурсу
 

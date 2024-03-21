@@ -66,7 +66,7 @@ ___
 
 **Request collapsing** - Это практика, когда кэш может использовать сохраненный ответ для удовлетворения нескольких запросов, при условии, что разрешено повторно использовать этот ответ для соответствующих запросов. Это позволяет кэшу "сворачивать запросы" - или объединять несколько входящих запросов в один прямой запрос при сбое кэша - тем самым снижая нагрузку на исходный сервер и сеть.
 
-Подробнее: [Fastly - Request collapsing](https://www.fastly.com/documentation/guides/concepts/edge-state/cache/request-collapsing/), [Cloudflare - Revalidation and request collapsing](https://developers.cloudflare.com/cache/concepts/revalidation/)
+Подробнее: [Fastly - Request collapsing](https://www.fastly.com/documentation/guides/topics/edge-state/cache/request-collapsing/), [Cloudflare - Revalidation and request collapsing](https://developers.cloudflare.com/cache/topics/revalidation/)
 
 
 ___
