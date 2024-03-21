@@ -12,5 +12,5 @@
 ## Navigation
 
 ### [Materials 📂](./materials.md)
-### [Notes 📂](./notes.md)
+### [Common 📂](./common.md)
 ### [Weak Points 📂](./weak-points.md)
