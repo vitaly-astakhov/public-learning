@@ -34,7 +34,7 @@ ___
 
 
 ### [Representation Data 📂](./representation-data.md)
-### [Web Origin 📂](./web-origin.md)
+### [Origin 📂](./origin.md)
 ### [Content Negotiation 📂](./content-negotiation.md)
 ### [Conditional Requests 📂](./conditional-requests.md)
 ### [Partial Content 📂](./partial-content.md)

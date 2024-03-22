@@ -1,8 +1,11 @@
-# Web Origin
+# Origin
 
 ## Documentation
 - [IETF RFC 6454 - The Web Origin Concept](https://datatracker.ietf.org/doc/html/rfc6454)
 - [WHATWG - HTML Origins](https://html.spec.whatwg.org/multipage/browsers.html#origin)
+
+## Articles
+- [stackoverflow *comment* - When do browsers send the Origin header? When do browsers set the origin to null?](https://stackoverflow.com/a/42242802)
 
 ___
 
@@ -18,13 +21,27 @@ ___
 - [**`scheme`**](https://www.rfc-editor.org/rfc/rfc3986#section-3.1)
 - [**`host`**](https://www.rfc-editor.org/rfc/rfc3986#section-3.2.2)
 - [**`port`**](https://www.rfc-editor.org/rfc/rfc3986#section-3.2.3) || null, так как может быть скрыт после **[HTTP(S) нормализации](https://www.rfc-editor.org/rfc/rfc9110#section-4.2.3)**
-- [`domain`](https://html.spec.whatwg.org/multipage/browsers.html#concept-origin-domain) || null
+- [`domain`](https://html.spec.whatwg.org/multipage/browsers.html#concept-origin-domain) || null - Значение можно только получать через аттрибут документа `document.domain`, но не назначать. Этот аттрибут [в будущем удалял из спецификации](https://html.spec.whatwg.org/multipage/browsers.html#dom-document-domain)
 
 Два источника (**origin**) **ДОЛЖНЫ (MUST)** различаться, если они отличаются чем либо из `scheme`, `host` или `port`.
 
-Два источника, считаются одним и тем же источником (*same origin*) , если [следующий алгоритм](https://html.spec.whatwg.org/multipage/browsers.html#same-origin) возвращает `true`
+<!-- TODO: Разобраться и написать про opaque origin. https://stackoverflow.com/a/42242802 -->
 
-Два источника, A и B, считаются «одним и тем же исходным доменом» (*same origin-domain*), если [следующий алгоритм](https://html.spec.whatwg.org/multipage/browsers.html#same-origin-domain) возвращает `true`:
+#### Same origin
+
+Два источника, являются одним и тем же источником (*same origin*), если [следующий алгоритм](https://html.spec.whatwg.org/multipage/browsers.html#same-origin) возвращает `true`.
+
+Два источника, A и B, являются «одним и тем же исходным доменом» (*same origin-domain*), если [следующий алгоритм](https://html.spec.whatwg.org/multipage/browsers.html#same-origin-domain) возвращает `true`.
+
+#### Same site
+
+Два источника, A и B, являются одним и тем же сайтом (*same site*), если [следующий алгоритм](https://html.spec.whatwg.org/multipage/browsers.html#same-site)мвозвращает `true`.
+
+Два источника, A и B, являются одним и тем же сайтом без схемы (*schemelessly same site*), если [следующий алгоритм](https://html.spec.whatwg.org/multipage/browsers.html#schemelessly-same-site) возвращает значение `true`.
+
+В отличие от концепций "same origin" и "same origin-domain", для "schemelessly same site" и "same site" компоненты порта (`port`) и домена (`domain`) игнорируются.
+
+По причинам, [объясненным в URL](https://url.spec.whatwg.org/#warning-avoid-psl), следует по возможности избегать концепции ["same site"](https://html.spec.whatwg.org/multipage/browsers.html#same-site) и ["schemelessly same site"](https://html.spec.whatwg.org/multipage/browsers.html#schemelessly-same-site) в пользу концепции [**same origin**](https://html.spec.whatwg.org/multipage/browsers.html#same-origin)
 
 ___
 
