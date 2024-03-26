@@ -5,12 +5,15 @@
 - [ ] [The Node.js Event Loop](https://nodejs.org/en/learn/asynchronous-work/event-loop-timers-and-nexttick#what-is-the-event-loop)
 
 ## Articles
-- [ ] [JavaScript Visualized: Event Loop _(dev.to)_](https://dev.to/lydiahallie/javascript-visualized-event-loop-3dif)
+- [x] [JavaScript Visualized: Event Loop _(dev.to)_](https://dev.to/lydiahallie/javascript-visualized-event-loop-3dif)
 
 
 ___
 
-**Event loop (Цикл событий)** - это часть [HTML спецификации](https://html.spec.whatwg.org/multipage/webappapis.html#event-loops) и используется для координации событий (**events**), взаимодействия с пользователем (**user interaction**), сценариев (**scripts**), рендеринга, работы в сети и т. д.
+
+**Циклы событий (event loop)** используются пользовательскими агентами для координации событий (**events**), взаимодействия с пользователем (**user interaction**), сценариев (**scripts**), рендеринга, работы в сети и т.д
+
+У каждого агента ([**agent** 📂](./agent.md)) есть связанный цикл событий (*event loop*), который уникален для этого агента.
 
 Цикл событий имеет одну или несколько очередей задач (**task queues**).
 
