@@ -1,4 +1,4 @@
-# Data transmission
+# Communication
 
 - [ ] [Hypertext Transfer Protocol (HTTP) 📂](./http/index.md)
   - [ ] [Representational State Transfer (REST) 📂](./architecture/REST/index.md)
