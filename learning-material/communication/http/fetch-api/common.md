@@ -24,7 +24,7 @@ HTTP обычно называет заголовок «полем» (**field**)
 
 Если при отправки сообщения встречаются поля с одинаковым названием, то их значения комбинируются в одно поле.
 
-В **Fetch API** заголовки сортируются по возрастанию. Источник: https://fetch.spec.whatwg.org/#concept-header-list-sort-and-combine
+В **Fetch API** заголовки сортируются по возрастанию. Источник: <https://fetch.spec.whatwg.org/#concept-header-list-sort-and-combine>
 
 <details>
 <summary>Пример сортировкой заголовков и комбинирования полей:</summary>
@@ -40,6 +40,7 @@ const headers = new Headers([
   ["Header-3", "value 4"],
 ]);
 ```
+
 Получаемый результат будет такой:
 
 ![Результат сортировки заголовков и комбинирования полей](../assets/fetch-api/sorting-and-combining-example.png)
@@ -76,15 +77,16 @@ const headers = new Headers([
 - `Sec-`
 
 ### [Forbidden response-header name](https://fetch.spec.whatwg.org/#forbidden-response-header-name)
+
 - `Set-Cookie`
 - `Set-Cookie2`
-
 
 ## [Statuses](https://fetch.spec.whatwg.org/#statuses)
 
 **Fetch API** работает только со статусами в диапазоне от 0 до 999
 
 **Fetch API** разделяет статусы на категории:
+
 - [**null body status**](https://fetch.spec.whatwg.org/#null-body-status) - статусы `101`, `103`, `204`, `205`, `304`.
 - [**ok status**](https://fetch.spec.whatwg.org/#ok-status) - статусы диапазона от 200 до 299
 - [**redirect status**](https://fetch.spec.whatwg.org/#redirect-status) - статусы `301`, `302`, `303`, `307`, `308`.
@@ -103,28 +105,28 @@ const headers = new Headers([
 
 У **Fetch API** есть механизм/концепция, который ограничивает/фильтрует получаемые поля и контент исходя из [связанного с ответом типа](https://fetch.spec.whatwg.org/#concept-response-type) и разрешенных/запрещенных для передачи полей. Подробнее: [concept-filtered-response](https://fetch.spec.whatwg.org/#concept-filtered-response)
 
-
 ## Fields
 
 ### [Origin 📂](../topics/origin.md) 🎩➡️
 
 Поле `Origin` добавляется к запросу, в некоторых случаях:
+
 - Когда ожидается, что ответ будет помечен как ‘загрязненный’ ([**response tainting**](https://fetch.spec.whatwg.org/#concept-request-response-tainting)) согласно режиму `cors`.
 - Если режим запроса (mode) установлен как `websocket`. Этот режим автоматически устанавливается только при работе с [WebSocket API](https://websockets.spec.whatwg.org/).
 - Когда метод запроса отличается от `GET` или `HEAD`, наличие поля **`Origin`** в запросе зависит от того, противоположен ли режим (mode) `cors` и от политики отправителя (`referrer policy`).
 
-Подробнее про добавление поля в сообщение запроса можно прочитать в спецификации: https://fetch.spec.whatwg.org/#append-a-request-origin-header
-
+Подробнее про добавление поля в сообщение запроса можно прочитать в спецификации: <https://fetch.spec.whatwg.org/#append-a-request-origin-header>
 
 ### [X-Content-Type-Options](https://fetch.spec.whatwg.org/#x-content-type-options-header) 🎩⬅️
+
 **`X-Content-Type-Options`** - это поле использоваться для указания того, что следует следовать типам **MIME**, объявленным в заголовках `Content-Type`, и не изменять их. Поле принимает только одно значение `nosniff`.
 
 ### [Cross-Origin-Resource-Policy](https://fetch.spec.whatwg.org/#cross-origin-resource-policy-header) 🎩⬅️
+
 **`Cross-Origin-Resource-Policy`** - это поле передает пожелание, чтобы браузер (user agent) блокировал запросы `no-cors` cross-origin/cross-site к данному ресурсу.
 
 Больше информации: [Consider deploying cross-origin resource policy!](https://resourcepolicy.fyi/)
 
-// TODO: Вернуться сюда, когда прочитаю спецификацию по HTML, а если точнее, то эту часть [Loading web pages](https://html.spec.whatwg.org/multipage/browsers.html#browsers)
-
+<!-- TODO: Вернуться сюда, когда прочитаю спецификацию по HTML, а если точнее, то эту часть [Loading web pages](https://html.spec.whatwg.org/multipage/browsers.html#browsers) -->
 
 ### [Sec-Purpose](https://fetch.spec.whatwg.org/#sec-purpose-header)

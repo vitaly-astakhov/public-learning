@@ -23,25 +23,29 @@
 **Referrer-Policy** по умолчанию содержит значение "strict-origin-when-cross-origin".
 
 Это поле можно передать несколькими способами:
+
 - Через заголовок `Referrer-Policy`, как было описано выше
 - Через HTML [мета-элемент](https://html.spec.whatwg.org/multipage/semantics.html#meta) с именем [referrer](https://html.spec.whatwg.org/multipage/semantics.html#meta-referrer).
 - Через атрибут referrerpolicy для элементов: `<a/>`, `<area/>`, `<img/>`, `<iframe/>`, `<link/>` или `<script/>`.
 - Через отношение [noreferrer](https://html.spec.whatwg.org/multipage/semantics.html#link-type-noreferrer) link для элемента `<a/>`или `<area/>`.
 - Неявно, через наследование - Referrer policy наследуется в соответствии с механизмом наследования [контейнеров политики](https://html.spec.whatwg.org/multipage/browsers.html#policy-container), определенным в HTML.
 
-<details><summary>Значение, которые можно передать в поле Referrer-Policy</summary>
+<details>
+<summary>Значение, которые можно передать в поле Referrer-Policy</summary>
 <p>
 
-enum ReferrerPolicy {
+[enum ReferrerPolicy](https://www.w3.org/TR/referrer-policy/#enumdef-referrerpolicy) {
+
 - "",
-- "no-referrer", // Запрещает передачу поля **Referer**
-- "no-referrer-when-downgrade", // Запрещает передачу поля **Referer**, если использование TLS в [URI scheme](https://www.rfc-editor.org/rfc/rfc3986#section-3.1) различается - передает весь URI.
-- "same-origin", // Разрешает передачу поля **Referer**, только при навигации внутри одного источника (**origin**)
-- "origin", // Передает только сам источник, без [путей](https://www.rfc-editor.org/rfc/rfc3986#section-3.3) - `scheme://host:port`
-- "strict-origin", //  Запрещает передачу поля **Referer**, если использование TLS в [URI scheme](https://www.rfc-editor.org/rfc/rfc3986#section-3.1) различается - передает только сам источник, как описано выше
-- "origin-when-cross-origin", // Передает полный URI при выполнении запроса с тем же источником (**origin**), но в других случаях отправляйте только источник (**origin**) документа.
-- "strict-origin-when-cross-origin" (**default**), // Запрещает передачу поля **Referer**, если использование TLS в [URI scheme](https://www.rfc-editor.org/rfc/rfc3986#section-3.1) различается - передает полный URI при выполнении запроса с тем же источником (**origin**), но в других случаях отправляйте только источник (**origin**) документа
-- "unsafe-url" // Разрешает передачу всем источникам
+- "no-referrer" - Запрещает передачу поля **Referer**
+- "no-referrer-when-downgrade" - Запрещает передачу поля **Referer**, если использование TLS в [URI scheme](https://www.rfc-editor.org/rfc/rfc3986#section-3.1) различается - передает весь URI.
+- "same-origin" - Разрешает передачу поля **Referer**, только при навигации внутри одного источника (**origin**)
+- "origin" - Передает только сам источник, без [путей](https://www.rfc-editor.org/rfc/rfc3986#section-3.3) - `scheme://host:port`
+- "strict-origin" -  Запрещает передачу поля **Referer**, если использование TLS в [URI scheme](https://www.rfc-editor.org/rfc/rfc3986#section-3.1) различается - передает только сам источник, как описано выше
+- "origin-when-cross-origin" - Передает полный URI при выполнении запроса с тем же источником (**origin**), но в других случаях отправляйте только источник (**origin**) документа.
+- "strict-origin-when-cross-origin" (**default**) - Запрещает передачу поля **Referer**, если использование TLS в [URI scheme](https://www.rfc-editor.org/rfc/rfc3986#section-3.1) различается - передает полный URI при выполнении запроса с тем же источником (**origin**), но в других случаях отправляйте только источник (**origin**) документа
+- "unsafe-url" - Разрешает передачу всем источникам
+
 };
 
 </p>

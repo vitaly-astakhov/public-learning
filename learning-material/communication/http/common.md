@@ -24,6 +24,7 @@ https://www.rfc-editor.org/rfc/rfc9110#name-connections-clients-and-ser
 
 Нормализация - это процесс приведение URI к подобаемому для него вида.
 
-// TODO: Поправить и дополнить текст про нормализацию.
+<!-- TODO: Поправить и дополнить текст про нормализацию. -->
+
 
 [При работе с HTTP протоколом в URI нельзя передавать userinfo (user:password), который является частью URI компонента](https://www.rfc-editor.org/rfc/rfc9110#section-4.2.4) [**authority**](https://www.rfc-editor.org/rfc/rfc3986#section-3.2)
