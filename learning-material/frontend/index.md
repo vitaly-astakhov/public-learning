@@ -9,3 +9,4 @@
   - [Next.js 📂](./frameworks/next-js/index.md)
   - [Vue.js](https://vuejs.org/)
 - [**State Management 📂**](./state-management/index.md)
+- [**Bundlers 📂**](./bundlers/index.md)
