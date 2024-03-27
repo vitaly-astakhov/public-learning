@@ -14,24 +14,32 @@ ___
 
 ### [Control data](https://www.rfc-editor.org/rfc/rfc9110#section-6.2)
 **Control data** - это описание и путь/направление сообщения. Описывает то, что получатель должен знать немедленно.
-  - Для запросов (request) control data будет состоять из:  метода (method), цели запроса (request target), версии HTTP протокола.
-  - Для ответов (response) control data будет состоять из: статуса (status code), опциональной фраза о причине, версии HTTP протокола
-> [!Note]
-> Существуют различия между тем как **control data** передается в сообщениях в зависимости от версии протокола
 
-<details><summary>Подробнее</summary>
-<p>
+- Для запросов (*request*) **control data** будет состоять из:  метода (method), цели запроса (request target), версии HTTP протокола.
+- Для ответов (*response*) **control data** будет состоять из: статуса (status code), опциональной фраза о причине, версии HTTP протокола
 
-В HTTP/1.1 и более ранних протоколах **control data** отправляются в виде первой строки сообщения.
-___
-![Mozilla Firefox screenshot](https://github.com/vitaliiastakhov/learning-private/assets/68643256/aa989cac-d6b1-4204-bfed-d6591d8f502b)
-В HTTP/2 и HTTP/3 **control data** передаются как _pseudo-header_ поля с зарезервированными именными префиксами (например, ":authority")
-___
-![HTTP/2 (Chrome DevTools screenshot)](https://github.com/vitaliiastakhov/learning-private/assets/68643256/50127998-7b22-4f8e-98fc-57f75fde2895)
-![HTTP/2 Opened HAR file (Visual Studio Code screenshot)](https://github.com/vitaliiastakhov/learning-private/assets/68643256/e11103a7-0305-4a5b-85d1-ea70c6639096)
-
-</p>
-</details>
+> [!NOTE]
+> Существуют различия в том как **control data** передается в сообщениях в зависимости от версии протокола
+>
+> <details>
+> <summary>Подробнее про различия</summary>
+> <p>
+>
+> В HTTP/1.1 и более ранних протоколах **control data** отправляются в виде первой строки сообщения.
+>  ___
+>
+> ![Mozilla Firefox screenshot](../assets/messages/contol-data-firefox.png)
+>
+> В HTTP/2 и HTTP/3 **control data** передаются как *pseudo-header* поля с зарезервированными именными префиксами >(например, ":authority")
+>
+>  ___
+>
+> ![HTTP/2 (Chrome DevTools screenshot)](../assets/messages/contol-data-chrome.png)
+>
+> ![HTTP/2 Opened HAR file (Visual Studio Code screenshot)](../assets/messages/contol-data-har.png)
+>
+> </p>
+> </details>
 
 ### [Headers fields](https://www.rfc-editor.org/rfc/rfc9110#section-6.3)
 **Headers fields** используются для расширения **control data** и передачи дополнительной информации об отправителе, сообщении, содержимом или контексте. Описывает, что необходимо знать перед получением контента.

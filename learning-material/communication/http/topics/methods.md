@@ -159,8 +159,8 @@ Request method вызывает действие, которое должно б
 
 Используется GitHub для обновления настроек репозитория.
 
-![Screenshot 2024-02-27 231037](https://github.com/vitaliiastakhov/learning-private/assets/68643256/43900f3e-846c-4f18-b988-9d3c941f0581)
-![Screenshot 2024-02-27 231344](https://github.com/vitaliiastakhov/learning-private/assets/68643256/1b8e4feb-5b4b-4536-a62e-7d16e320e1c2)
+![Method POST as PUT - github example headers (screenshot)](../assets/methods/post-as-put-github-example-headers.png)
+![Method POST as PUT - github example body (screenshot)](../assets/methods/post-as-put-github-example-body.png)
 
 Мне не очень понятно зачем они так сделали. Надо будет изучить.
 
