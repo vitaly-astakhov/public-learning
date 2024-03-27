@@ -11,3 +11,13 @@
   - [Vue.js](https://vuejs.org/)
 - [**State Management 📂**](./state-management/index.md)
 - [**Bundlers 📂**](./bundlers/index.md)
+- **Maps**
+  - [ ] maplibre-gl
+  - [ ] Leaflet
+  - [ ] google
+  - [ ] yandex
+  - [ ] OpenLayers
+- **Other**
+  - [ ] [Electron](https://electronjs.org/)
+  - [ ] PWA
+  - [ ] [rxjs](https://github.com/ReactiveX/rxjs)
