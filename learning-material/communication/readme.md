@@ -1,9 +1,9 @@
 # Communication
 
-- [ ] [Hypertext Transfer Protocol (HTTP) 📂](./http/readme.md)
-  - [ ] [Representational State Transfer (REST) 📂](./architecture/REST/readme.md)
+- [x] [Hypertext Transfer Protocol (HTTP) 📂](./http/readme.md)
+  - [x] [Representational State Transfer (REST) 📂](./architecture/REST/readme.md)
   - [ ] [GraphQL 📂](./architecture/graphql/readme.md)
-- [ ] [WebSocket 📂](./websocket/readme.md)
+- [x] [WebSocket 📂](./websocket/readme.md)
 - [ ] WebTransport
 - [ ] [RPC 📂](./RPC/readme.md)
   - [ ] gRPC
