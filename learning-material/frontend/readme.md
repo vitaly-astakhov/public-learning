@@ -2,15 +2,15 @@
 
 ### Navigation
 - **Core**
-  - [HTML 📂](./html/index.md)
-  - [CSS 📂](./css/index.md)
+  - [HTML 📂](./html/readme.md)
+  - [CSS 📂](./css/readme.md)
 - [**Accessibility 📂**](./accessibility/)
 - **Frameworks**
-  - [React 📂](./frameworks/react/index.md)
-  - [Next.js 📂](./frameworks/next-js/index.md)
+  - [React 📂](./frameworks/react/readme.md)
+  - [Next.js 📂](./frameworks/next-js/readme.md)
   - [Vue.js](https://vuejs.org/)
-- [**State Management 📂**](./state-management/index.md)
-- [**Bundlers 📂**](./bundlers/index.md)
+- [**State Management 📂**](./state-management/readme.md)
+- [**Bundlers 📂**](./bundlers/readme.md)
 - **Maps**
   - [ ] maplibre-gl
   - [ ] Leaflet

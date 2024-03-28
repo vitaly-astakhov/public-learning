@@ -12,31 +12,31 @@
 
 ## Navigation
 
-- [Frontend 📂](./learning-material/frontend/index.md)
-- [Databases 📂](./learning-material/databases/index.md)
-- [Backend 📂](./learning-material/backend/index.md)
-- [Code quality 📂](./learning-material/code-quality/index.md)
-- [Quality Assurance / Testing 📂](./learning-material/qa/index.md)
-- [Documentation 📂](./learning-material/documentation/index.md)
-- [Source code management (SCM) 📂](./learning-material/scm/index.md)
-- [GitOps 📂](./learning-material/git-ops/index.md)
-- [DevOps 📂](./learning-material/dev-ops/index.md)
+- [Frontend 📂](./learning-material/frontend/readme.md)
+- [Databases 📂](./learning-material/databases/readme.md)
+- [Backend 📂](./learning-material/backend/readme.md)
+- [Code quality 📂](./learning-material/code-quality/readme.md)
+- [Quality Assurance / Testing 📂](./learning-material/qa/readme.md)
+- [Documentation 📂](./learning-material/documentation/readme.md)
+- [Source code management (SCM) 📂](./learning-material/scm/readme.md)
+- [GitOps 📂](./learning-material/git-ops/readme.md)
+- [DevOps 📂](./learning-material/dev-ops/readme.md)
 
 ___
 
-- [Architecture and concepts 📂](./learning-material/architecture/index.md)
-- [Communication 📂](./learning-material/communication/index.md)
-- [Authentication 📂](./learning-material/authentication/index.md)
+- [Architecture and concepts 📂](./learning-material/architecture/readme.md)
+- [Communication 📂](./learning-material/communication/readme.md)
+- [Authentication 📂](./learning-material/authentication/readme.md)
 
 ___
 
-- [Product management 📂](./learning-material/product-management/index.md)
-- [Design 📂](./learning-material/design/index.md)
+- [Product management 📂](./learning-material/product-management/readme.md)
+- [Design 📂](./learning-material/design/readme.md)
 
 ___
 
-- [Algorithms 📂](./learning-material/algorithms/index.md)
-- [Other 📂](./learning-material/other/index.md)
+- [Algorithms 📂](./learning-material/algorithms/readme.md)
+- [Other 📂](./learning-material/other/readme.md)
 
 ## Issues
 

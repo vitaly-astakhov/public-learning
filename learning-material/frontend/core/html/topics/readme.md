@@ -2,5 +2,5 @@
 
 ### [Common 📂](./common.md)
 ### [Document 📂](./document.md)
-### [Elements 📂](./elements/index.md)
-### [Browsers 📂](./browsers/index.md)
+### [Elements 📂](./elements/readme.md)
+### [Browsers 📂](./browsers/readme.md)

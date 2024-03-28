@@ -1,4 +1,4 @@
 # JavaScript
 
 ### [Materials 📂](./materials.md)
-### [Topics 📂](./topics/index.md)
+### [Topics 📂](./topics/readme.md)

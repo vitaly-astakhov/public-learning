@@ -2,7 +2,7 @@
 
 ## Navigation
 
-- [GitHub 📂](./github/index.md)
+- [GitHub 📂](./github/readme.md)
 
 ### [Materials 📂](./materials.md)
 

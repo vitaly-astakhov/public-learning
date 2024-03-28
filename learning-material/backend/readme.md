@@ -2,7 +2,7 @@
 
 ## Core
 
-- [Node.js 📂](./node-js/index.md)
+- [Node.js 📂](./node-js/readme.md)
   - **Frameworks**:
     - [ ] [NestJS](https://nestjs.com/)
     - [ ] [Koa](https://koajs.com/)

@@ -5,10 +5,10 @@
 
 ### Navigation
 
-- [**Topics** 📂](./topics/index.md)
-  - [**Common** 📂](./topics/common/index.md)
+- [**Topics** 📂](./topics/readme.md)
+  - [**Common** 📂](./topics/common/readme.md)
   - **Routing**
-    - [x] [React Router 📂](./topics/routing/react-router/index.md)
+    - [x] [React Router 📂](./topics/routing/react-router/readme.md)
     - [ ] [TanStack Router](https://tanstack.com/router/v1)
   - **UI**
     - **Design System**
@@ -20,7 +20,7 @@
       - [ ] [Formik](https://formik.org/)
       - [ ] [TanStack Form](https://tanstack.com/form/latest)
     - **Tables**
-      - [ ] [TanStack Table 📂](./topics/ui/tables/tanstack-table/index.md)
+      - [ ] [TanStack Table 📂](./topics/ui/tables/tanstack-table/readme.md)
       - [ ] [AG Grid](https://github.com/ag-grid/ag-grid)
       - [ ] [react-virtualized](https://github.com/bvaughn/react-virtualized)
     -  **Charts**
@@ -32,4 +32,3 @@
       - [ ] [nivo](https://github.com/plouc/nivo)
     - **Graphs**
       - [ ] [sigma.js](https://github.com/jacomyal/sigma.js)
-

@@ -6,8 +6,8 @@
 
 ### [Common 📂](./common.md)
 
-### [Topics 📂](./topics/index.md)
+### [Topics 📂](./topics/readme.md)
 
-### [Versions 📂](./versions/index.md)
+### [Versions 📂](./versions/readme.md)
 
 ### [Weak Points 📂](./weak-points.md)
