@@ -1,0 +1,15 @@
+default: true
+
+# Exclusions for deliberate/widespread violations
+heading-increment: false     # First header should be a h1 header
+ul-style:           # Unordered list style
+  style: dash
+ul-indent:           # Unordered list indentation
+  indent: 2
+line-length: false     # Line length
+first-line-h1: false     # First line in file should be a top level header
+no-inline-html: false
+emphasis-style:
+  style: asterisk
+fenced-code-language: false
+no-blanks-blockquote: false

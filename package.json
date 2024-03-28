@@ -1,0 +1,21 @@
+{
+  "name": "public-learning",
+  "version": "0.0.1",
+  "description": "Этот репозиторий – мой способ систематизировать и обновлять знания в разработке",
+  "main": "index.js",
+  "scripts": {
+    "commitlint": "commitlint --edit",
+    "prepare": "husky"
+  },
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@commitlint/config-conventional": "^19.1.0",
+    "commitlint": "^19.2.1",
+    "husky": "^9.0.11",
+    "lint-staged": "^15.2.2",
+    "markdownlint": "^0.34.0",
+    "markdownlint-cli": "^0.39.0"
+  }
+}
