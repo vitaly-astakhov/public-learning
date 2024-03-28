@@ -23,7 +23,7 @@
   - [HTTP/2 📂](./versions/http-2.md)
   - [HTTP/3 📂](./versions/http-3.md)
   - [Differences 📂](./versions/differences.md)
-- [Common 📂](./common.md)
+- [Common 📂](./index.md)
 - [Weak Points 📂](./weak-points.md)
 
 ### [Materials 📂](./materials.md)

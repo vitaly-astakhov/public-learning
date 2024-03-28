@@ -1,5 +1,7 @@
 # Documentation
 
+## Navigation
+
 - [ ] [Storybook](https://storybook.js.org/)
 - [ ] [markdoc](https://github.com/markdoc/markdoc)
 - [ ] Другие SLDC tools.

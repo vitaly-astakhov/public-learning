@@ -1,4 +1,6 @@
 # Browsers
 
-### [Common 📂](./common.md)
-### [Agent 📂](./agent.md)
+## Navigation
+
+- [Common 📂](./index.md)
+- [Agent 📂](./agent.md)

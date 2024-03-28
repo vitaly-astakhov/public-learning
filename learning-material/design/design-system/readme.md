@@ -1,5 +1,7 @@
 # Design system
 
-### [Materials 📂](./materials.md)
+## Navigation
 
-### [Notes 📂](./notes.md)
+- [Notes 📂](./notes.md)
+
+### [Materials 📂](./materials.md)

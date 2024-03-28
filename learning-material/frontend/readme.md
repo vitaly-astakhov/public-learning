@@ -1,10 +1,11 @@
 # Frontend
 
-### Navigation
+## Navigation
+
 - **Core**
-  - [HTML 📂](./html/readme.md)
-  - [CSS 📂](./css/readme.md)
-- [**Accessibility 📂**](./accessibility/)
+  - [HTML 📂](./core/html/readme.md)
+  - [CSS 📂](./core/css/readme.md)
+- [**Accessibility 📂**](./accessibility/readme.md)
 - **Frameworks**
   - [React 📂](./frameworks/react/readme.md)
   - [Next.js 📂](./frameworks/next-js/readme.md)

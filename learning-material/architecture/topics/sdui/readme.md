@@ -3,9 +3,8 @@
 ## Navigation
 
 - [ ] [DivKit](https://divkit.tech/en/)
+- [Notes 📂](./notes.md)
 
 ### [Materials 📂](./materials.md)
-
-### [Notes 📂](./notes.md)
 
 [^1]: Другое название -  **backend Driven UI (BDUI)**

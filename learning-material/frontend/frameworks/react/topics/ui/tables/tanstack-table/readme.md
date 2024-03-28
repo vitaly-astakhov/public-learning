@@ -1,3 +1,3 @@
 # TanStack Table
 
-### [Materials 📂](./materials)
+### [Materials 📂](./materials.md)

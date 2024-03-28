@@ -1,9 +1,6 @@
 # React
 
-### [Materials 📂](./materials.md)
-
-
-### Navigation
+## Navigation
 
 - [**Topics** 📂](./topics/readme.md)
   - [**Common** 📂](./topics/common/readme.md)
@@ -23,12 +20,14 @@
       - [ ] [TanStack Table 📂](./topics/ui/tables/tanstack-table/readme.md)
       - [ ] [AG Grid](https://github.com/ag-grid/ag-grid)
       - [ ] [react-virtualized](https://github.com/bvaughn/react-virtualized)
-    -  **Charts**
-      - [ ] [React Charts](https://react-charts.tanstack.com/)
-      - [ ] [recharts](https://github.com/recharts/recharts)
-      - [ ] [echarts](https://github.com/apache/echarts)
-      - [ ] [D3](https://d3js.org/)
-      - [ ] [Chart.js](https://www.chartjs.org/)
-      - [ ] [nivo](https://github.com/plouc/nivo)
+    - **Charts**
+    - [ ] [React Charts](https://react-charts.tanstack.com/)
+    - [ ] [recharts](https://github.com/recharts/recharts)
+    - [ ] [echarts](https://github.com/apache/echarts)
+    - [ ] [D3](https://d3js.org/)
+    - [ ] [Chart.js](https://www.chartjs.org/)
+    - [ ] [nivo](https://github.com/plouc/nivo)
     - **Graphs**
       - [ ] [sigma.js](https://github.com/jacomyal/sigma.js)
+
+### [Materials 📂](./materials.md)

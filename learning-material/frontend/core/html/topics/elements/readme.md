@@ -1,3 +1,5 @@
 # HTML Elements
 
-### [Common 📂](./common.md)
+## Navigation
+
+- [Common 📂](./index.md)

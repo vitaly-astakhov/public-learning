@@ -19,7 +19,6 @@
 - **Other**
   - [fast-check](https://github.com/dubzzz/fast-check)
   - [stryker-js](https://github.com/stryker-mutator/stryker-js)
+- [Notes 📂](./notes.md)
 
 ### [Materials 📂](./materials.md)
-
-### [Notes 📂](./notes.md)

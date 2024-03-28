@@ -1,5 +1,8 @@
 # Representational State Transfer (REST)
 
+## Navigation
+
+- [Common 📂](./index.md)
+- [Notes 📂](./notes.md)
+
 ### [Materials 📂](./materials.md)
-### [Common 📂](./common.md)
-### [Notes 📂](./notes.md)
