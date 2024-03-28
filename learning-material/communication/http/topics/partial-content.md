@@ -6,7 +6,7 @@
 
 Диапазоны запросов выражаются в виде единицы диапазона (**range units**) в сочетании с набором спецификаторов диапазона (**range specifiers**). Имя единицы диапазона (**range unit**) определяет, какие типы спецификации диапазона применимы к ее собственным спецификаторам.
 
-Полный список зарегистрированных диапазонных единиц: https://www.iana.org/assignments/http-parameters/http-parameters.xhtml#range-units
+Полный список зарегистрированных диапазонных единиц: <https://www.iana.org/assignments/http-parameters/http-parameters.xhtml#range-units>
 
 Единица диапазона (**range unit**) `bytes` используется для выражения поддиапазонов (subranges) последовательности октетов данных представления. Каждый диапазон байтов выражается в виде целочисленного (integer) диапазона с некоторым смещением относительно либо начала ([int-range](https://www.rfc-editor.org/rfc/rfc9110.html#rule.int-range)), либо конца ([suffix-range](https://www.rfc-editor.org/rfc/rfc9110.html#rule.suffix-range)) данных представления.
 
@@ -80,7 +80,6 @@
   Последний не кешированный ответ
   ![pinterest.com - пример не кешированного ответа 3](../assets/partial-content/pinterest/no-cached-1.png)
 
-
   Первый кешированный ответ
   ![pinterest.com - пример кешированного ответа 1](../assets/partial-content/pinterest/cached-1.png)
 
@@ -92,7 +91,6 @@
 
   </p>
   </details>
-
 
 </p>
 </details>

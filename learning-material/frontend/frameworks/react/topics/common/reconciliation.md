@@ -1,8 +1,8 @@
 # Reconciliation
 
 ## Materials
-- [REACT RECONCILIATION ALGORITHM - [medium]](https://medium.com/javarevisited/react-reconciliation-algorithm-86e3e22c1b40)
 
+- [REACT RECONCILIATION ALGORITHM - [medium]](https://medium.com/javarevisited/react-reconciliation-algorithm-86e3e22c1b40)
 
 Reconciliation (согласование) - это алгоритм (процесс) сравнения виртуального дерева элементов (Virtual DOM) с предыдущим состоянием и определения необходимых изменений для обновления реального DOM.
 

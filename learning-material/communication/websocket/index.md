@@ -7,9 +7,9 @@
 ### Виды фреймов
 
 - [**Control Frames**](https://www.rfc-editor.org/rfc/rfc6455#section-5.5) - Контролирующие фреймы
-  - [**Close**](https://www.rfc-editor.org/rfc/rfc6455#section-5.5.1) - Отправляется с клиента/сервера для закрытия соединения. Должен иметь [статус код](https://www.rfc-editor.org/rfc/rfc6455#section-7.4). Может иметь [сообщение с причиной закрытия соединения](https://www.rfc-editor.org/rfc/rfc6455#section-7.1.6). Конечный адресат (endpoint) должен прислать в ответ тоже контролирующий фрейм _**Close**_. OpCode = 8
-  - [**Ping**](https://www.rfc-editor.org/rfc/rfc6455#section-5.5.2) - Отправляется с клиента/сервера для проверки жизнеспособности соединения. Конечный адресат (endpoint) должен вернуть контролирующий фрейм _**Pong**_. OpCode = 9
-  - [**Pong**](https://www.rfc-editor.org/rfc/rfc6455#section-5.5.3) - Отправляется в ответ на контролирующий фрейм _**Ping**_. OpCode = 10
+  - [**Close**](https://www.rfc-editor.org/rfc/rfc6455#section-5.5.1) - Отправляется с клиента/сервера для закрытия соединения. Должен иметь [статус код](https://www.rfc-editor.org/rfc/rfc6455#section-7.4). Может иметь [сообщение с причиной закрытия соединения](https://www.rfc-editor.org/rfc/rfc6455#section-7.1.6). Конечный адресат (endpoint) должен прислать в ответ тоже контролирующий фрейм ***Close***. OpCode = 8
+  - [**Ping**](https://www.rfc-editor.org/rfc/rfc6455#section-5.5.2) - Отправляется с клиента/сервера для проверки жизнеспособности соединения. Конечный адресат (endpoint) должен вернуть контролирующий фрейм ***Pong***. OpCode = 9
+  - [**Pong**](https://www.rfc-editor.org/rfc/rfc6455#section-5.5.3) - Отправляется в ответ на контролирующий фрейм ***Ping***. OpCode = 10
 - [**Data Frames**](https://www.rfc-editor.org/rfc/rfc6455#section-5.6) - Фреймы данных
   - Текстовый фрейм (Текстовое сообщение) в формате UTF-8.  OpCode = 1
   - Бинарный фрейм (Бинарное сообщение). OpCode = 2

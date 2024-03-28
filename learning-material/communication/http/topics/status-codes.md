@@ -10,4 +10,4 @@
 - [4xx (Client Error)](https://www.rfc-editor.org/rfc/rfc9110.html#status.4xx): запрос содержит неверный синтаксис или не может быть выполнен.
 - [5xx (Server Error)](https://www.rfc-editor.org/rfc/rfc9110.html#status.5xx): серверу не удалось выполнить очевидно действительный запрос.
 
-Полный список зарегистрированных кодов статуса: https://www.iana.org/assignments/http-status-codes/http-status-codes.xhtml
+Полный список зарегистрированных кодов статуса: <https://www.iana.org/assignments/http-status-codes/http-status-codes.xhtml>

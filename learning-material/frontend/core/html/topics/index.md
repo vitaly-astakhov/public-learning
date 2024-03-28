@@ -17,6 +17,7 @@ ___
 ## Window
 
 ### Materials
+
 - [Defining the WindowProxy, Window, and Location objects](https://blog.whatwg.org/windowproxy-window-and-location)
 
 ___
@@ -27,6 +28,6 @@ ___
 
 Контекст объекта можно получить  через `window` так же можно получить через глобальное свойство [`globalThis`](https://tc39.es/ecma262/multipage/global-object.html#sec-globalthis).
 
-
 ### Interfaces
+
 - [Window - [HTML]](https://html.spec.whatwg.org/multipage/nav-history-apis.html#window)

@@ -1,7 +1,8 @@
 # Materials
 
 ## Articles
-- [x] [Architectural Styles and the Design of Network-based Software Architectures _(Dissertation)_](https://roy.gbiv.com/pubs/dissertation/top.htm)
+
+- [x] [Architectural Styles and the Design of Network-based Software Architectures *(Dissertation)*](https://roy.gbiv.com/pubs/dissertation/top.htm)
 - [x] [htmx - How Did REST Come To Mean The Opposite of REST?](https://htmx.org/essays/how-did-rest-come-to-mean-the-opposite-of-rest/) 👍
 - [x] [Rethinking REST](https://kieranpotts.com/rethinking-rest) 👍
 - [x] [htmx - HATEOAS](https://htmx.org/essays/hateoas/)

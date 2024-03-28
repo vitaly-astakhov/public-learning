@@ -4,13 +4,12 @@
 
 **Preconditions** - Это поля, которе состоят из сравнения набора валидаторов, полученных из предыдущих представлений целевого ресурса, с текущим состоянием валидаторов для выбранного представления
 
-
 ## Use cases
+
 - [Обновление кэша (Cache update)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Conditional_requests#cache_update)
 - [Интеграция частичной загрузки](https://developer.mozilla.org/en-US/docs/Web/HTTP/Conditional_requests#integrity_of_a_partial_download)
 - [Avoiding the lost update problem with optimistic locking](https://developer.mozilla.org/en-US/docs/Web/HTTP/Conditional_requests#avoiding_the_lost_update_problem_with_optimistic_locking)
 - [Dealing with the first upload of a resource](https://developer.mozilla.org/en-US/docs/Web/HTTP/Conditional_requests#dealing_with_the_first_upload_of_a_resource)
-
 
 ### Поля
 
@@ -30,7 +29,6 @@
 
 Это поле в основном используется в условных запросах с методом GET, чтобы обеспечить эффективное обновление кэшированной информации с минимальными затратами на транзакцию.
 
-
 ### [If-Modified-Since](https://www.rfc-editor.org/rfc/rfc9110.html#section-13.1.3) 🎩
 
 **If-Modified-Since** - Запрос с этим полем выполняется успешно, если поле `Last-Modified` удаленного ресурса более поздняя, чем указанная в этом заголовке.
@@ -38,6 +36,7 @@
 Получатель **ДОЛЖЕН (MUST)** игнорировать поле заголовка `If-Modified-Since`, если запрос содержит поле заголовка `If-None-Match`, так как у него приоритетность выше, чем у поля `If-Modified-Since`.
 
 ### [If-Unmodified-Since](https://www.rfc-editor.org/rfc/rfc9110.html#section-13.1.4) 🎩
+
 **If-Unmodified-Since** - Запрос с этим полем выполняется успешно, если поле `Last-Modified` удаленного ресурса старше или совпадает с датой, указанной в этом заголовке.
 
 ### [If-Range](https://www.rfc-editor.org/rfc/rfc9110.html#section-13.1.5) 🎩

@@ -3,10 +3,10 @@
 Для работы с навигацией и историей сеансов HTML спецификация предлагает следующие API:
 
 ### [interface `Location`](https://html.spec.whatwg.org/multipage/nav-history-apis.html#the-location-interface)
+
 Это API предоставляет, помимо своих навигационных возможностей ([assign](https://html.spec.whatwg.org/multipage/nav-history-apis.html#dom-location-assign), [replace](https://html.spec.whatwg.org/multipage/nav-history-apis.html#dom-location-replace), [reload](https://html.spec.whatwg.org/multipage/nav-history-apis.html#dom-location-reload)), информацию об источнике (`origin`), и так же подробную информацию об URL (`protocol`, `host`, `port` и др.), который применим к текущему окну (`window`).
 
 В настоящее время этот API для навигации разработчиками используется редко.
-
 
 ### [interface `History`](https://html.spec.whatwg.org/multipage/nav-history-apis.html#the-history-interface)
 
@@ -37,13 +37,11 @@ ___
 
 [Навигационный объект (**navigable**)](https://html.spec.whatwg.org/multipage/document-sequences.html#navigables) представляет `Document` пользователю через запись истории активного сеанса ([active session history entry](https://html.spec.whatwg.org/multipage/document-sequences.html#nav-active-history-entry)).
 
-
 #### [Navigable target names](https://html.spec.whatwg.org/multipage/document-sequences.html#navigable-target-names)
 
 Навигационным объектам (**navigable**) могут быть присвоены целевые имена ([*target names*](https://html.spec.whatwg.org/multipage/document-sequences.html#nav-target)), которые представляют собой строки, позволяющие определенным API (таким как `window.open()` или атрибут `target` элемента `<a/>`) настраивать навигацию по этому навигационному объекту (navigable).
 
 Валидными целевыми именами для навигационных объектов считаются: `_blank`, `_self`, `_parent` `_top`.
-
 
 ### Traversable navigable
 

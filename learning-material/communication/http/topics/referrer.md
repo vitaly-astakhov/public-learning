@@ -5,7 +5,7 @@
 - **Referer** - Это поле позволяет пользовательскому агенту (**user agent**), например браузеру, при переходе по ссылке передать новому ресурсу [absolute-URI](https://www.rfc-editor.org/rfc/rfc9110#uri.references) или [partial-URI](https://www.rfc-editor.org/rfc/rfc9110#uri.references), с которого был запрошен ресурс. То есть когда вы нажимаете на ссылку, ссылка содержит адрес страницы, на которую указана ссылка. Когда вы отправляете запросы ресурсов в другой домен, ссылка содержит адрес страницы, на которой используется запрашиваемый ресурс.
 - **Использование**: Эти данные могут быть использованы для аналитики, логирования, оптимизированного кэширования и т.д.
 
-Передача и область применения этого поля **_Referer_** может регулироваться заголовком заголовком [**Referrer Policy**](https://w3c.github.io/webappsec-referrer-policy). Может так же регулироваться HTML аттрибутом [rel](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/rel) со значением [noreferrer](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/rel/noreferrer)
+Передача и область применения этого поля ***Referer*** может регулироваться заголовком заголовком [**Referrer Policy**](https://w3c.github.io/webappsec-referrer-policy). Может так же регулироваться HTML аттрибутом [rel](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/rel) со значением [noreferrer](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/rel/noreferrer)
 
 <details><summary>Для чего вообще нужно/можно регулировать передачу поля Referer</summary>
 <p>

@@ -2,4 +2,4 @@
 
 ## Articles
 
-- [ ] [ESLint. Анатомия правил линтинга: разбираем структуру, создаём собственное правило для React-приложения _(habr.com)_](https://habr.com/ru/companies/domclick/articles/743384/)
+- [ ] [ESLint. Анатомия правил линтинга: разбираем структуру, создаём собственное правило для React-приложения *(habr.com)*](https://habr.com/ru/companies/domclick/articles/743384/)

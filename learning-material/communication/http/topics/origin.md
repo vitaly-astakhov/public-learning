@@ -1,10 +1,12 @@
 # Origin
 
 ## Documentation
+
 - [IETF RFC 6454 - The Web Origin Concept](https://datatracker.ietf.org/doc/html/rfc6454)
 - [WHATWG - HTML Origins](https://html.spec.whatwg.org/multipage/browsers.html#origin)
 
 ## Articles
+
 - [stackoverflow *comment* - When do browsers send the Origin header? When do browsers set the origin to null?](https://stackoverflow.com/a/42242802)
 
 ___
@@ -18,6 +20,7 @@ ___
 В сущности пользовательские агенты (**user agent**) изолируют различные источники (**origins**) и обеспечивают контролируемую связь между источниками. Детали того, как пользовательские агенты (**user agent**) обеспечивают изоляцию и связь, различаются в зависимости от нескольких факторов, про которые можно причитать тут.
 
 **Origin** обязательно состоит из следующих компонентов [URI синтаксиса](https://www.rfc-editor.org/rfc/rfc3986#section-3):
+
 - [**`scheme`**](https://www.rfc-editor.org/rfc/rfc3986#section-3.1)
 - [**`host`**](https://www.rfc-editor.org/rfc/rfc3986#section-3.2.2)
 - [**`port`**](https://www.rfc-editor.org/rfc/rfc3986#section-3.2.3) || null, так как может быть скрыт после **[HTTP(S) нормализации](https://www.rfc-editor.org/rfc/rfc9110#section-4.2.3)**
@@ -56,5 +59,6 @@ ___
 ___
 
 Получить значение **origin** можно несколькими способами:
+
 - [`window.location.origin`](https://html.spec.whatwg.org/multipage/nav-history-apis.html#dom-location-origin)
 - [`window.origin`](https://html.spec.whatwg.org/multipage/webappapis.html#dom-origin-dev)

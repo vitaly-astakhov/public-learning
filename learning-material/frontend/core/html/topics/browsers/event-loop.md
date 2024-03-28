@@ -1,15 +1,15 @@
 # Event Loop
 
 ## Documentation
+
 - [ ] [WHATWG - Event loops](https://html.spec.whatwg.org/multipage/webappapis.html#event-loops)
 - [ ] [The Node.js Event Loop](https://nodejs.org/en/learn/asynchronous-work/event-loop-timers-and-nexttick#what-is-the-event-loop)
 
 ## Articles
-- [x] [JavaScript Visualized: Event Loop _(dev.to)_](https://dev.to/lydiahallie/javascript-visualized-event-loop-3dif)
 
+- [x] [JavaScript Visualized: Event Loop *(dev.to)*](https://dev.to/lydiahallie/javascript-visualized-event-loop-3dif)
 
 ___
-
 
 **Циклы событий (event loop)** используются пользовательскими агентами для координации событий (**events**), взаимодействия с пользователем (**user interaction**), сценариев (**scripts**), рендеринга, работы в сети и т.д
 
@@ -20,6 +20,7 @@ ___
 **Очередь задач (task queue)** - это набор задач (**task**).
 
 **Задача (task)** — это структура, которая имеет:
+
 - **steps**
 - **source**
 - **document**

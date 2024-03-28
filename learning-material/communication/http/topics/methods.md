@@ -46,8 +46,8 @@ ___
 
       Не работает в **Fetch API**.
       Источники:
-    - [It is not possible to issue HTTP request with OPTIONS * HTTP/1.1 start line in JavaScript - [*stackoverflow*]](https://stackoverflow.com/a/75835604/14615230)
-    - [How to send ‘OPTIONS * HTTP/1.1’ requests (asterisk form) with fetch()? - 📍 [*github*]](https://github.com/whatwg/fetch/issues/1622)
+        *[It is not possible to issue HTTP request with OPTIONS* HTTP/1.1 start line in JavaScript - [*stackoverflow*]](https://stackoverflow.com/a/75835604/14615230)
+        *[How to send ‘OPTIONS* HTTP/1.1’ requests (asterisk form) with fetch()? - 📍 [*github*]](https://github.com/whatwg/fetch/issues/1622)
 
     </p>
     </details>
@@ -182,6 +182,5 @@ ___
 </details>
 
 <!-- TODO: Разобраться как правильно и лучше называть поля сообщения - заголовок (header - так принято в **Fetch API**) или поле (field). Встретил так же такое: [Request header field](https://www.rfc-editor.org/rfc/rfc9110#name-request-context-fields). -->
-
 
 [^1]: Полный список зарегистрированных методов запроса: <https://www.iana.org/assignments/http-methods/http-methods.xhtml>

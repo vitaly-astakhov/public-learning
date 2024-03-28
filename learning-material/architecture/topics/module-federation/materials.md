@@ -6,5 +6,5 @@
 
 ## Articles
 
-- [ ] [Микрофронтенды на Module Federation — наш опыт. Часть 1 - _Habr_](https://habr.com/ru/companies/qiwi/articles/736344/)
-- [ ] [Создание веб-приложения с использованием микрофронтендов и Module Federation - _Habr_](https://habr.com/ru/articles/785798)
+- [ ] [Микрофронтенды на Module Federation — наш опыт. Часть 1 - *Habr*](https://habr.com/ru/companies/qiwi/articles/736344/)
+- [ ] [Создание веб-приложения с использованием микрофронтендов и Module Federation - *Habr*](https://habr.com/ru/articles/785798)
