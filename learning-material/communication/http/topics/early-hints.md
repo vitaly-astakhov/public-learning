@@ -1,20 +1,23 @@
 # Early Hints (Ранние подсказки)
 
 ## Documentation
+
 - [IETF RFC 8297 An HTTP Status Code for Indicating Hints](https://datatracker.ietf.org/doc/html/rfc8297)
 - [WHATWG - HTML Spec - Early hints](https://html.spec.whatwg.org/multipage/semantics.html#early-hints)
 
 ## Articles
+
 - [ ] [Early Hints Support on Navigation Responses](https://docs.google.com/document/d/1gCh_CnfrJq_VL7aGoq6skc7sn4yn5pKsM0gkHe5B9go/edit#heading=h.yh1rfx1p5ocs)
 
 ## Debug Tools
+
 - [Check for 103 Early Hints](https://code103.hotmann.de/)
 
 ## Some
+
 - [example](https://early-hints.fastlylabs.com/)
 
-
-____
+___
 
 Ранние подсказки (**Early Hints**) позволяют пользовательским агентам выполнять некоторые операции, такие как предположительная загрузка ресурсов, которые, вероятно, будут использоваться документом, до того, как запрос навигации будет полностью обработан сервером и будет отправлен код ответа. Например, клиент может распознать значение поля заголовка Link, содержащее тип отношения `preload`, и начать получение целевого ресурса. Серверы могут указывать на ранние подсказки, отправляя ответ с необходимыми полями и кодом состояния [103 (Early Hints)](https://www.rfc-editor.org/rfc/rfc8297#section-2) перед отправкой окончательного ответа.
 

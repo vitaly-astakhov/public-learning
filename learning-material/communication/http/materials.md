@@ -1,6 +1,7 @@
 # Materials
 
 ## Documentation
+
 - [x] [IETF RFC 9110 - HTTP Semantics](https://www.rfc-editor.org/rfc/rfc9110) - Пропустил секцию: [HTTP Authentication](https://www.rfc-editor.org/rfc/rfc9110#name-http-authentication)
   - [x] [IETF RFC 5789 - PATCH Method for HTTP](https://www.rfc-editor.org/rfc/rfc5789)
   - [ ] [IETF *DRAFT* - The HTTP QUERY Method](https://httpwg.org/http-extensions/draft-ietf-httpbis-safe-method-w-body.html)
@@ -15,9 +16,7 @@
 - [ ] [IETF RFC 9114 - HTTP/3](https://www.rfc-editor.org/rfc/rfc9114)
 - [ ] [IETF RFC 9205 - Building Protocols with HTTP](https://datatracker.ietf.org/doc/rfc9205/)
 
-
-____
-
+___
 
 - [x] [IETF RFC 6454 - The Web Origin Concept](https://datatracker.ietf.org/doc/rfc6454/) - [[**Web Origin** 📂](./topics/origin.md)]
 - [x] [W3C - Referrer Policy](https://w3c.github.io/webappsec-referrer-policy/) - [[Referrer 📂](./topics/referrer.md)]
@@ -44,8 +43,8 @@ ____
 
 ___
 
-
 ## Articles
+
 - [ ] [Как работает HTTPS](https://ufostation.tech/ru/posts/2023/how-does-https-work)
 - [ ] [HTTP/3 From A To Z: Core Concepts](https://www.smashingmagazine.com/2021/08/http3-core-concepts-part1/)
   - [ ] [HTTP/3: Performance Improvements (Part 2)](https://www.smashingmagazine.com/2021/08/http3-performance-improvements-part2/)
@@ -53,26 +52,3 @@ ___
 - [x] [htmx - Why I Tend Not To Use Content Negotiation](https://htmx.org/essays/why-tend-not-to-use-content-negotiation/) - [**[topic] Content Negotiation 📂**](./topics/content-negotiation.md)
 - [ ] [HTTP Cache](https://www.chromium.org/developers/design-documents/network-stack/http-cache/)
 - [ ] [What is Idempotency?](https://blog.dreamfactory.com/what-is-idempotency)
-
-## [Topics 📂](./topics/readme.md)
-- [Messages 📂](./topics/messages.md)
-- [User Agent 📂](./topics/user-agent.md)
-- [Intermediaries 📂](./topics/intermediaries.md)
-- [Methods 📂](./topics/methods.md)
-- [Web Origin 📂](./topics/origin.md)
-- [Referrer 📂](./topics/referrer.md)
-- [Representation Data 📂](./topics/representation-data.md)
-- [Header Fields 📂](./topics/headers-fields.md)
-- [Content Negotiation 📂](./topics/content-negotiation.md)
-- [Validation 📂](./topics/validation.md)
-- [Conditional Requests 📂](./topics/conditional-requests.md)
-- [Partial Content 📂](./topics/partial-content.md)
-- [Status Codes 📂](./topics/status-codes.md)
-- [Cache 📂](./topics/cache.md)
-- [State Management 📂](./topics/state-management.md)
-
-## Versions
-- [HTTP/1.1 📂](./versions/http-1.1.md)
-- [HTTP/2 📂](./versions/http-2.md)
-- [HTTP/3 📂](./versions/http-3.md)
-- [Differences 📂](./versions/differences.md)

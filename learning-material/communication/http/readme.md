@@ -2,12 +2,28 @@
 
 ## Navigation
 
+- [**Topics 📂**](./topics/readme.md)
+  - [Messages 📂](./topics/messages.md)
+  - [User Agent 📂](./topics/user-agent.md)
+  - [Intermediaries 📂](./topics/intermediaries.md)
+  - [Methods 📂](./topics/methods.md)
+  - [Web Origin 📂](./topics/origin.md)
+  - [Referrer 📂](./topics/referrer.md)
+  - [Representation Data 📂](./topics/representation-data.md)
+  - [Header Fields 📂](./topics/headers-fields.md)
+  - [Content Negotiation 📂](./topics/content-negotiation.md)
+  - [Validation 📂](./topics/validation.md)
+  - [Conditional Requests 📂](./topics/conditional-requests.md)
+  - [Partial Content 📂](./topics/partial-content.md)
+  - [Status Codes 📂](./topics/status-codes.md)
+  - [Cache 📂](./topics/cache.md)
+  - [State Management 📂](./topics/state-management.md)
+- [**Versions 📂**](./versions/readme.md)
+  - [HTTP/1.1 📂](./versions/http-1.1.md)
+  - [HTTP/2 📂](./versions/http-2.md)
+  - [HTTP/3 📂](./versions/http-3.md)
+  - [Differences 📂](./versions/differences.md)
+- [Common 📂](./common.md)
+- [Weak Points 📂](./weak-points.md)
+
 ### [Materials 📂](./materials.md)
-
-### [Common 📂](./common.md)
-
-### [Topics 📂](./topics/readme.md)
-
-### [Versions 📂](./versions/readme.md)
-
-### [Weak Points 📂](./weak-points.md)
