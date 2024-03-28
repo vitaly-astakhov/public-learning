@@ -1,9 +1,10 @@
 # Redux
 
-### Navigation
+## Navigation
+
 - **Topics**
-  - [x] [Redux Saga 📂](./redux-saga/readme.md)
-  - [x] [Redux Toolkit 📂](./redux-toolkit/readme.md)
+  - [x] [Redux Saga 📂](./topics/redux-saga/readme.md)
+  - [x] [Redux Toolkit 📂](./topics/redux-toolkit/readme.md)
   - [ ] [Rematch - Redux](https://rematchjs.org/)
 
 ### Materials
