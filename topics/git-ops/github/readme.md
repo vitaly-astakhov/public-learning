@@ -2,7 +2,7 @@
 
 ## Navigation
 
-- [**GitHub Issue/Projects** 📍🔒  [#46]](../../../../../private-learning/issues/46)
+- [**GitHub Issue/Projects** 📍🔒  [#46]](../../../../../../private-learning/issues/46)
 
 ## Libraries
 
