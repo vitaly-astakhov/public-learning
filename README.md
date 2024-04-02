@@ -40,9 +40,8 @@ ___
 
 ## Issues
 
-- [Articles for reading 📍 [#23]](../../issues/23)
-- [Books and studies for reading 📍 [#42]](../../issues/42)
-- [Courses 📍 [#71]](../../issues/71)
+- [Materials 📍 [#23]](../../public-learining/issues/23)
+- [Topics 📍🔒 [#41]](../../../private-learning/issues/41)
 
 ### Designations
 
@@ -52,6 +51,7 @@ ___
 | ----- | ---------------- | --------------- | ------------------------------------------------ |
 | 📍     | round pushpin    | Issue           | Любой контент, связанный с issue или PR.         |
 | 📂     | open folder file | Внутренний файл | Файл или ресурс, находящийся внутри репозитория. |
+| 🔒     | locked           | Private         | Приватный, закрытый доступ к ресурсу             |
 
 #### Communication/Protocols
 

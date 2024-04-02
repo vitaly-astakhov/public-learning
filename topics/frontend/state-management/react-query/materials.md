@@ -9,4 +9,4 @@
 - [ ] [**Series** - Practical React Query](https://tkdodo.eu/blog/practical-react-query)
 - [ ] [Why You Want React Query](https://tkdodo.eu/blog/why-you-want-react-query)
 
-## [Code 📍 [#34]](../../../../issues/34)
+## [Code 📍🔒 [#83]](../../../../private-learning/issues/83)

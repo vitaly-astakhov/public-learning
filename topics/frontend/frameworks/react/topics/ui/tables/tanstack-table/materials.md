@@ -4,4 +4,4 @@
 
 - [TanStack Table](https://tanstack.com/table)
 
-## [Code 📍 [#24]](../../../../../../../../../../issues/24)
+## [Code 📍🔒 [#24]](../../../../../../../../../../private-learning/issues/24)
