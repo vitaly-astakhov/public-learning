@@ -37,7 +37,7 @@
 ECMAScript выделяет два вида объектов исходя из использования ими внутренних методов:
 
 - **обычный объект (*ordinary object*)** - это объект, который удовлетворяет [критериям описанным в спецификации](https://tc39.es/ecma262/multipage/ecmascript-data-types-and-values.html#ordinary-object).
-- **экзотичный объект (*exotic object*)** - это объект, который не является обычным объектом (*ordinary object*)
+- **экзотичный объект (*exotic object*)** - это объект, который не является обычным объектом (*ordinary object*). Примеры: [Array exotic object](https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#array-exotic-object), [Proxy exotic object](https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#proxy-exotic-object)
 
 Таблица с хорошо известными внутренними объектами: [Table: Well-Known Intrinsic Objects](https://tc39.es/ecma262/multipage/ecmascript-data-types-and-values.html#table-well-known-intrinsic-objects).
 

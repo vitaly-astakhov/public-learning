@@ -2,7 +2,7 @@
 
 ## Documentation
 
-- [ ] [ECMAScript Language Specification](https://tc39.es/ecma262/multipage)
+- [ ] [ECMAScript Language Specification](https://tc39.es/ecma262/multipage) - 🚧 Остановился на секции [10 Ordinary and Exotic Objects Behaviours](https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-ordinary-and-exotic-objects-behaviours "Ordinary and Exotic Objects Behaviours")
 
 ## Articles
 
