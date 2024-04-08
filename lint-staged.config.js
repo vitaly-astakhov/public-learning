@@ -1,7 +1,7 @@
 // eslint-disable-next-line import/no-default-export
 
 const lintStagedConfig = {
-  "*.md": "markdownlint --fix",
+  "*.md": "npm run lint:md",
 };
 
 export default lintStagedConfig;
