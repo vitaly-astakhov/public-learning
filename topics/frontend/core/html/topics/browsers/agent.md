@@ -10,7 +10,7 @@ ___
 
 В веб-платформах существуют следующие типы агентов:
 
-- [similar-origin window agent](https://html.spec.whatwg.org/multipage/webappapis.html#similar-origin-window-agent)
+- [similar-origin window agent](https://html.spec.whatwg.org/multipage/webappapis.html#similar-origin-window-agent) - Содержит различные объекты [Window](https://html.spec.whatwg.org/multipage/nav-history-apis.html#window), которые потенциально могут взаимодействовать друг с другом либо напрямую, либо с помощью [document.domain](https://html.spec.whatwg.org/multipage/browsers.html#dom-document-domain).
 - [dedicated worker agent](https://html.spec.whatwg.org/multipage/webappapis.html#dedicated-worker-agent)
 - [shared worker agent](https://html.spec.whatwg.org/multipage/webappapis.html#shared-worker-agent)
 - [service worker agent](https://html.spec.whatwg.org/multipage/webappapis.html#service-worker-agent)
@@ -31,7 +31,13 @@ ___
 
 Каждый агент принадлежит ровно к одному кластеру агентов.
 
-Ключ кластера агентов (**agent cluster key**) - это источник сайта ([site](https://html.spec.whatwg.org/multipage/browsers.html#site)) или [tuple origin](https://html.spec.whatwg.org/multipage/browsers.html#concept-origin-tuple).
+Концептуально концепция кластера агентов (**agent cluster**) представляет собой независимую от архитектуры идеализированную "границу процесса" (*"process boundary"*), которая объединяет несколько "потоков" (**агентов**). Кластеры агентов, определенные ECMAScript спецификацией, как правило, являются более строгими, чем реальные границы процессов, реализованные в пользовательских агентах. Источник: [Integration with the JavaScript agent cluster formalism [HTML]](https://html.spec.whatwg.org/multipage/webappapis.html#integration-with-the-javascript-agent-cluster-formalism)
+
+Ключ кластера агентов (**agent cluster key**) - это источник сайта ([site](https://html.spec.whatwg.org/multipage/browsers.html#site)) или [tuple origin](https://html.spec.whatwg.org/multipage/browsers.html#concept-origin-tuple). Без действий веб-разработчика по созданию кластеров агентов с исходным ключом ([*origin-keyed agent clusters*](https://html.spec.whatwg.org/multipage/browsers.html#origin-keyed-agent-clusters)) это будет просто сайт (*site*).
+
+Эквивалентной формулировкой может быть то что, что ключ кластера агентов может быть схемой и хостом (*scheme and host*) или источником (*origin*).
+
+Примеры того, когда агент находится или не находится [можно найти здесь](https://html.spec.whatwg.org/multipage/webappapis.html#:~:text=The%20following%20pairs%20of%20global%20objects%20,each%20other).
 
 Проверяет принадлежит ли window к кластеру агентов ([*agent cluster*](https://tc39.es/ecma262/#sec-agent-clusters)) с исходным ключом (**origin-keyed**): это означает, что операционная система предоставила выделенные ресурсы (например, процесс операционной системы) источнику этого окна, которые не являются общими. с окнами другого происхождения.
 
