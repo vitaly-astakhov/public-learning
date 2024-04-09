@@ -25,7 +25,6 @@ Environment Record определяет некоторые типы привяз
 > [!NOTE]
 > In HTML specification, all realms are created with global objects that are either `Window`, `WorkerGlobalScope`, or `WorkletGlobalScope` objects.
 
-
 ## [Execution Contexts](https://tc39.es/ecma262/multipage/executable-code-and-execution-contexts.html#sec-execution-contexts)
 
 <!-- TODO: Написать про execution contexts и execution context stack -->
