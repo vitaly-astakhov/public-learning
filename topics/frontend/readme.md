@@ -13,11 +13,11 @@
 - [**State Management 📂**](./state-management/readme.md)
 - [**Bundlers 📂**](./bundlers/readme.md)
 - **Maps**
-  - [ ] maplibre-gl
-  - [ ] Leaflet
+  - [ ] [Leaflet](https://leafletjs.com/)
+  - [ ] [OpenLayers](https://openlayers.org/)
+  - [ ] [maplibre-gl](https://maplibre.org/)
   - [ ] google
   - [ ] yandex
-  - [ ] OpenLayers
 - **Other**
   - [ ] [Electron](https://electronjs.org/)
   - [ ] PWA
