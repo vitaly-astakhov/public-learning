@@ -19,7 +19,7 @@
 ___
 
 - [x] [IETF RFC 6454 - The Web Origin Concept](https://datatracker.ietf.org/doc/rfc6454/) - [[**Web Origin** 📂](./topics/origin.md)]
-- [x] [W3C - Referrer Policy](https://w3c.github.io/webappsec-referrer-policy/) - [[Referrer 📂](./topics/referrer.md)]
+- [x] [W3C - Referrer Policy](https://w3c.github.io/webappsec-referrer-policy/) - [[Referrer 📂](./topics/referrer-and-policy.md)]
 - [ ] [WHATWG - Fetch Standard](https://fetch.spec.whatwg.org) - [[**Fetch API** 📂](./fetch-api/readme.md)] 🚧 Остановился на секции [4. Fetching](https://fetch.spec.whatwg.org/#fetching), вернусь, когда прочитаю секцию [8 Web application APIs](https://html.spec.whatwg.org/multipage/webappapis.html#webappapis) HTML спецификации, чтобы лучше понимать некоторые концепции алгоритма "**fetching**".
 - [x] [W3C - Fetch Metadata Request Headers](https://www.w3.org/TR/fetch-metadata/) - [[**Fetch Metadata** 📂](./fetch-api/fetch-metadata.md)]
 - [x] [IETF *DRAFT* - Cookies: HTTP State Management Mechanism](https://www.ietf.org/archive/id/draft-ietf-httpbis-rfc6265bis-13.html) - [[**State Management** 📂](./topics/state-management.md)]

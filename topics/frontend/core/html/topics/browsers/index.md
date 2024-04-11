@@ -4,7 +4,7 @@
 
 - [CSP list](https://w3c.github.io/webappsec-csp/#csp-list)
 - [embedder policy](https://html.spec.whatwg.org/multipage/browsers.html#embedder-policy)
-- [referrer policy](https://w3c.github.io/webappsec-referrer-policy/#referrer-policy) - [referrer 📂](../../../../../communication/http/topics/referrer.md)
+- [referrer policy](https://w3c.github.io/webappsec-referrer-policy/#referrer-policy) - [referrer 📂](../../../../../communication/http/topics/referrer-and-policy.md)
 - [cross-origin opener policy](https://html.spec.whatwg.org/multipage/browsers.html#cross-origin-opener-policy)
 
 ## Opener
