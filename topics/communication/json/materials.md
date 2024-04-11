@@ -2,6 +2,8 @@
 
 ## Documentation
 
+- [x] [The JavaScript Object Notation (JSON) Data Interchange Format [**IETF RFC8259**]](https://datatracker.ietf.org/doc/html/rfc8259)
+- [x] [The JSON data interchange syntax [**ECMA-404**]](https://ecma-international.org/publications-and-standards/standards/ecma-404/)
 - [ ] [The JavaScript Object Notation (JSON) Data Interchange Format [**IETF RFC8259**]](https://datatracker.ietf.org/doc/html/rfc8259)
 - [ ] [The JSON data interchange syntax [**ECMA-404**]](https://ecma-international.org/publications-and-standards/standards/ecma-404/)
 - [ ] [JavaScript Object Notation (JSON) Patch [**IETF RFC6902**]](https://datatracker.ietf.org/doc/html/rfc6902/)
