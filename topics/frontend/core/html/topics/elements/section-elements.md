@@ -1,6 +1,6 @@
 # Section elements
 
-## [`<body>` element](https://html.spec.whatwg.org/multipage/sections.html#the-body-element)
+## [`<body>` element](https://html.spec.whatwg.org/multipage/sections.html#the-body-element) 🏷️
 
 Элемент `<body>` представляет содержимое (*contents*) документа. В документах должен быть только один элемент `<body>`.
 
