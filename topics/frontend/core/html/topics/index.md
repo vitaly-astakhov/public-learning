@@ -1,16 +1,6 @@
-### [Plugins](https://html.spec.whatwg.org/multipage/infrastructure.html#plugins)
+# HTML
 
-Плагинами в HTML спецификации называются используемые и регулируемые пользовательским агентом обработчики контента, которые расширяют стандартные функции пользовательского агента.
-
-Примеры таких плагинов: PDF viewer
-
-<!-- TODO:  Найти больше примеров таких плагинов-->
-
-Узнать какие плагины используются в документе можно через аттрибут документа [`document.embeds`](https://html.spec.whatwg.org/multipage/dom.html#dom-document-embeds) и [`document.plugins`](https://html.spec.whatwg.org/multipage/dom.html#dom-document-plugins)
-
-___
-
-Семантикой (**semantic**) в HTML называется содержание/смысл/значение (meaning).
+Семантикой (**semantic**) в HTML называется содержание/смысл/значение (*meaning*).
 
 ___
 
@@ -28,6 +18,22 @@ ___
 
 Контекст объекта можно получить  через `window` так же можно получить через глобальное свойство [`globalThis`](https://tc39.es/ecma262/multipage/global-object.html#sec-globalthis).
 
-### Interfaces
+### Window interfaces
 
 - [Window - [HTML]](https://html.spec.whatwg.org/multipage/nav-history-apis.html#window)
+
+___
+
+### [Plugins](https://html.spec.whatwg.org/multipage/infrastructure.html#plugins)
+
+Плагинами в HTML спецификации называются используемые и регулируемые пользовательским агентом обработчики контента, которые расширяют стандартные функции пользовательского агента.
+
+Примеры таких плагинов:
+
+- [PDF viewer](https://html.spec.whatwg.org/multipage/system-state.html#pdf-viewing-support)
+
+Узнать какие плагины можно было через `window.navigator.plugins`. Сейчас аттрибут `plugins` считается устаревшим (*deprecated*).
+
+<!-- TODO:  Найти больше примеров HTML плагинов -->
+
+Узнать какие плагины используются в документе можно через аттрибут документа [`document.embeds`](https://html.spec.whatwg.org/multipage/dom.html#dom-document-embeds) и [`document.plugins`](https://html.spec.whatwg.org/multipage/dom.html#dom-document-plugins)
