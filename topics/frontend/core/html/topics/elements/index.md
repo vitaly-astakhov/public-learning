@@ -1,6 +1,8 @@
+# HTML elements
+
 ### [Elements](https://html.spec.whatwg.org/multipage/dom.html#elements)
 
-Термин «элементы HTML» относится к любому элементу в [**HTML namespace**](https://infra.spec.whatwg.org/#html-namespace).
+Термин "элемент HTML" относится к любому элементу в [**HTML namespace**](https://infra.spec.whatwg.org/#html-namespace).
 
 Элементы, атрибуты и значения атрибутов в HTML определены (в соответствии с этой спецификацией) как имеющие определенные смыслы (**meanings**) (семантику).
 
@@ -43,5 +45,9 @@
 - [script-supporting elements](https://html.spec.whatwg.org/multipage/dom.html#script-supporting-elements) - это элементы, которые сами ничего не представляют (т.е. не отображаются), но используются для поддержки сценариев (*scripts*), например для обеспечения функциональности для пользователя.
 
 Sectioning content, heading content, phrasing content, embedded content, interactive content - все это типы flow content. Метаданные (metadata) иногда являются flow content. Метаданные (metadata) и interactive content иногда являются phrasing content. Embedded content также является типом phrasing content, а иногда и interactive content.
+
+### [Paragraph](https://html.spec.whatwg.org/multipage/dom.html#paragraphs)
+
+В HTML спецификации абзац/параграф (**paragraph**) - это структурный концепт, который обычно представляет собой набор фраз (*phrasing content*), который образует блок текста с одним или несколькими предложениями, обсуждающими конкретную тему, как в типографике, но также может использоваться для более общей тематической группировки. Например, адрес также является абзацем, как и часть формы, подпись или строфа в стихотворении.
 
 [^1]: “content from another vocabulary” может означать использование элементов из других спецификаций, которые могут быть встроены в HTML-документ.  Например, [SVG](https://svgwg.org/svg2-draft/) и [MathML](https://w3c.github.io/mathml/)
