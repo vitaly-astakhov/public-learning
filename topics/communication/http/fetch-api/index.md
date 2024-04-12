@@ -1,6 +1,6 @@
-#
+# Fetch API
 
-### URL
+## URL
 
 **Local scheme (локальная схема)** - это "about", "blob" или "data".
 
@@ -126,7 +126,5 @@ const headers = new Headers([
 **`Cross-Origin-Resource-Policy`** - это поле передает пожелание, чтобы браузер (user agent) блокировал запросы `no-cors` cross-origin/cross-site к данному ресурсу.
 
 Больше информации: [Consider deploying cross-origin resource policy!](https://resourcepolicy.fyi/)
-
-<!-- TODO: Вернуться сюда, когда прочитаю спецификацию по HTML, а если точнее, то эту часть [Loading web pages](https://html.spec.whatwg.org/multipage/browsers.html#browsers) -->
 
 ### [Sec-Purpose](https://fetch.spec.whatwg.org/#sec-purpose-header)

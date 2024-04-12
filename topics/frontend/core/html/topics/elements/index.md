@@ -35,13 +35,13 @@
 - [metadata content](https://html.spec.whatwg.org/multipage/dom.html#metadata-content) - это контент, который определяет представление или поведение остального контента, или который устанавливает связь документа с другими документами, или который передает другую «внешнюю» информацию.
 - [flow content](https://html.spec.whatwg.org/multipage/dom.html#flow-content) - это большинство элементов, используемых в основной части (*body*) документов и приложений
 - [sectioning content](https://html.spec.whatwg.org/multipage/dom.html#sectioning-content) - это содержимое, определяющее область действия (*scope*) элементов `header` и `footer`.
-<!-- TODO: Побольше узнать про область действия элементов `header` и `footer` -->
 - [heading content](https://html.spec.whatwg.org/multipage/dom.html#heading-content) - это содержимое, определяющее заголовок раздела.
 - [phrasing content](https://html.spec.whatwg.org/multipage/dom.html#phrasing-content) - это текст документа, а также элементы, которые выделяют этот текст на уровне внутри абзаца.
-- [embedded content](https://html.spec.whatwg.org/multipage/dom.html#embedded-content-2) - это содержимое, которое импортирует в документ другой ресурс, или содержимое из другого словаря (*vocabulary*), вставленное в документ.
-<!-- TODO: Побольше узнать про vocabulary -->
-- [interactive content](https://html.spec.whatwg.org/multipage/dom.html#embedded-content-2) - это контент, специально предназначенный для взаимодействия с пользователем.
+  - [embedded content](https://html.spec.whatwg.org/multipage/dom.html#embedded-content-2) - это содержимое, которое импортирует в документ другой ресурс, или содержимое из другого словаря (*content from another vocabulary*)[^1], вставленное в документ.
+- [interactive content](https://html.spec.whatwg.org/multipage/dom.html#interactive-content) - это контент, специально предназначенный для взаимодействия с пользователем.
 - [palpable content](https://html.spec.whatwg.org/multipage/dom.html#palpable-content) - это содержимое, которое делает элемент непустым (*non-empty*), предоставляя либо некоторый непустой текст, либо что-то еще, что пользователи могут слышать (`audio` элементы) или просматривать (`video`, `img` или элементы `canvas`) или иным образом взаимодействовать (например, элементы управления интерактивной формой).
 - [script-supporting elements](https://html.spec.whatwg.org/multipage/dom.html#script-supporting-elements) - это элементы, которые сами ничего не представляют (т.е. не отображаются), но используются для поддержки сценариев (*scripts*), например для обеспечения функциональности для пользователя.
 
 Sectioning content, heading content, phrasing content, embedded content, interactive content - все это типы flow content. Метаданные (metadata) иногда являются flow content. Метаданные (metadata) и interactive content иногда являются phrasing content. Embedded content также является типом phrasing content, а иногда и interactive content.
+
+[^1]: “content from another vocabulary” может означать использование элементов из других спецификаций, которые могут быть встроены в HTML-документ.  Например, [SVG](https://svgwg.org/svg2-draft/) и [MathML](https://w3c.github.io/mathml/)

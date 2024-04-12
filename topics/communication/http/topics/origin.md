@@ -28,7 +28,8 @@ ___
 
 Два источника (**origin**) **ДОЛЖНЫ (MUST)** различаться, если они отличаются чем либо из `scheme`, `host` или `port`.
 
-<!-- TODO: Разобраться и написать про opaque origin. https://stackoverflow.com/a/42242802 -->
+<!-- TODO: Разобраться в концепции opaque origin
+https://stackoverflow.com/a/42242802 -->
 
 #### Same origin
 

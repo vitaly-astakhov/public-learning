@@ -30,7 +30,7 @@
 
 Таблица со всеми основными внутренними методами объекта: [Essential Internal Methods](https://tc39.es/ecma262/multipage/ecmascript-data-types-and-values.html#table-essential-internal-methods)
 
-<!-- TODO: Сделать таблицу сопоставления внутренних методов и как их можно вызывать в JavaScript -->
+<!-- TODO: Сделать таблицу сопоставления внутренних методов ECMAScript и как их можно вызывать в JavaScript и какие -->
 
 Внутренние методы и слоты в спецификации обозначаются в двойных квадратных скобках **[[ ]]**.
 

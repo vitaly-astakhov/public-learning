@@ -18,6 +18,8 @@ ___
 
 ## Agent Cluster
 
+<!-- TODO: Разобраться с темой Agent Cluster (дочитать статьи)  -->
+
 ### Materials
 
 - [Origin-keyed agent clusters [HTML]](https://html.spec.whatwg.org/multipage/browsers.html#origin-keyed-agent-clusters)
@@ -44,8 +46,6 @@ ___
 ## Fields
 
 ### [Origin-Agent-Cluster](https://html.spec.whatwg.org/multipage/browsers.html#origin-agent-cluster) 🎩⬅️
-
-<!-- TODO: Разобраться с этой темой -->
 
 <details>
 <summary>Объяснение от Chat GPT-4</summary>
