@@ -6,3 +6,7 @@
 - [ ] [WHATWG - DOM Living Standard](https://dom.spec.whatwg.org/)
 - [ ] [W3C - UI Events](https://w3c.github.io/uievents/)
 - [ ] [SVGWG - Scalable Vector Graphics (SVG) 2](https://svgwg.org/svg2-draft/)
+
+## Articles
+
+- [ ] [There Is No Document Outline Algorithm](https://adrianroselli.com/2016/08/there-is-no-document-outline-algorithm.html)
