@@ -1,4 +1,4 @@
-# Examples of figure element usage
+# Examples of `<figure>` element usage
 
 ## Navigation
 
@@ -9,6 +9,8 @@
 - [The figure element [HTML Spec]](https://html.spec.whatwg.org/multipage/grouping-content.html#the-figure-element)
 
 ### Example 1
+
+**Источник**: <https://www.britannica.com/technology/photography>
 
 ```html
 <figure>
