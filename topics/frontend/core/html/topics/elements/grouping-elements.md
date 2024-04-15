@@ -62,30 +62,7 @@
 
 Элемент **`<dl>`**  можно использовать для определения словарного запаса, как в словаре. [Пример](https://html.spec.whatwg.org/multipage/grouping-content.html#:~:text=A%20dl%20can%20be%20used%20to%20define%20a%20vocabulary%20list,%20like%20in%20a%20dictionary).
 
-<details>
-<summary>Примеры использования элемента dl</summary>
-
-Источник: <https://developer.mozilla.org/en-US/docs/Web/HTML>
-
-```html
-<dl>
-  <dt id="html_introduction"><a href="#html_introduction">HTML Introduction</a></dt>
-  <dd>
-    <p>If you're new to web development, be sure to read our <a href="/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics">HTML Basics</a> article to learn what HTML is and how to use it.</p>
-  </dd>
-  <dt id="html_tutorials"><a href="#html_tutorials">HTML Tutorials</a></dt>
-  <dd>
-    <p>For articles about how to use HTML, as well as tutorials and complete examples, check out our <a href="/en-US/docs/Learn/HTML">HTML Learning Area</a>.</p>
-  </dd>
-  <dt id="html_reference"><a href="#html_reference">HTML Reference</a></dt>
-  <dd>
-    <p>In our extensive <a href="/en-US/docs/Web/HTML/Reference">HTML reference</a> section, you'll find the details about every element and attribute in HTML.</p>
-  </dd>
-</dl>
-
-```
-
-</details>
+[Реальные примеры использования элемента **`<dl>`** 📂](./examples/examples-figure-el.md)
 
 ### [`<dt>` element](https://html.spec.whatwg.org/multipage/grouping-content.html#the-dt-element) - description term
 
