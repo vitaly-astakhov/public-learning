@@ -1,6 +1,6 @@
 # [Text-level elements](https://html.spec.whatwg.org/multipage/text-level-semantics.html#text-level-semantics)
 
-### [`<a>` element](https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-a-element) 🏷️ - *anchor*
+### [`<a>` element](https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-a-element) 🏷️ - *anchor* <a id='a-element' />
 
 Элемент **`<a>`**, если содержит атрибут `href`, представляет собой гиперссылку (гипертекстовую привязку (*hypertext* -**anchor***)). Если аттрибут `href` отсутствует, то элемент представляет собой заполнитель (*placeholder*) для того места, где могла бы быть размещена ссылка.
 
