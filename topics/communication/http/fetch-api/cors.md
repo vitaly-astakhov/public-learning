@@ -1,5 +1,16 @@
 # Cross-Origin Resource Sharing (CORS)
 
+## Navigation
+
+- [CORS response](#request)
+- [CORS response](#response)
+  - [Response to CORS request](#response-to-cors-request)
+  - [Response to CORS preflight request](#response-to-cors-preflight-request)
+
+___
+
+## Overview
+
 Протокол **CORS** существует чтобы разрешать обмен ответами из разных источников. Протокол **CORS** накладывается поверх HTTP и позволяет ответам объявлять, что они могут быть переданы другим источникам.
 
 Протокол **CORS** состоит из набора заголовков, которые указывают, может ли ответ быть общим для разных источников.
@@ -61,15 +72,17 @@ ___
 
 HTTP-ответ на запрос CORS (**CORS request**) может содержать следующие поля.
 
-#### [Access-Control-Allow-Origin](https://fetch.spec.whatwg.org/#http-access-control-allow-origin)
+#### Response to CORS request headers
+
+##### [Access-Control-Allow-Origin](https://fetch.spec.whatwg.org/#http-access-control-allow-origin)
 
 **`Access-Control-Allow-Origin`** - это обязательное поле, которое указывает, можно ли поделиться ответом, возвращая буквальное значение заголовка запроса `Origin` (который может иметь значение null) или `*` в ответе.
 
-#### [Access-Control-Allow-Credentials](https://fetch.spec.whatwg.org/#http-access-control-allow-credentials)
+##### [Access-Control-Allow-Credentials](https://fetch.spec.whatwg.org/#http-access-control-allow-credentials)
 
 **`Access-Control-Allow-Credentials`** - это обязательное поле, которое указывает, можно ли поделиться ответом, если у запроса стоит режим учетных данных ([**credentials mode**](https://fetch.spec.whatwg.org/#concept-request-credentials-mode)) - "include".
 
-#### [Access-Control-Expose-Headers](https://fetch.spec.whatwg.org/#http-access-control-expose-headers) 🎩⬅️
+##### [Access-Control-Expose-Headers](https://fetch.spec.whatwg.org/#http-access-control-expose-headers) 🎩⬅️
 
 **`Access-Control-Expose-Headers`** - это необязательное поле, которое указывает, какие заголовки могут быть представлены как часть ответа, перечисляя их имена, тем самым расширяя список **CORS-safelisted response-header name**, который представлен ниже.
 
@@ -77,7 +90,9 @@ HTTP-ответ на запрос CORS (**CORS request**) может содер�
 
 ### Response to CORS preflight request
 
-HTTP-ответ на предварительный запрос CORS (**CORS-preflight request**) может содержать следующие заголовки:
+HTTP-ответ на предварительный запрос CORS (**CORS-preflight request**) может содержать следующие заголовки
+
+#### Response to CORS preflight request headers
 
 #### [Access-Control-Allow-Methods](https://fetch.spec.whatwg.org/#http-access-control-allow-methods) 🎩⬅️
 
