@@ -137,3 +137,13 @@ ___
 ![UI Events Interface Inheritance](../../assets/event-inheritance.svg)
 
 Источник: <https://www.w3.org/TR/uievents/#figure-event-inheritance>
+
+___
+
+## [Event handlers](https://html.spec.whatwg.org/multipage/webappapis.html#event-handler-attributes)
+
+Помимо слушателей событий (*event listeners*), которые регистрируются через DOM, мы также можем работать с событиями, используя обработчики событий ([*event handlers*](https://html.spec.whatwg.org/multipage/webappapis.html#event-handler-attributes)).
+
+Обработчики событий можно устанавливать двумя способами: напрямую через атрибуты элемента или программно через DOM. В обоих случаях имя обработчика событий представляет собой строку, которая всегда начинается с “on”, за которой следует название события, для которого он предназначен.
+
+### [Event handlers on elements, Document objects, and Window objects](https://html.spec.whatwg.org/multipage/webappapis.html#event-handlers-on-elements,-document-objects,-and-window-objects)
