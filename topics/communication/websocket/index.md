@@ -1,10 +1,20 @@
-# Common
+# WebSocket
 
-## Frames
+## Table of content
+
+- [Overview](#overview)
+  - [Frames](#frames)
+    - [Frame types](#frame-types)
+  - [WebSocket API](#websocket-api)
+- [DevTools](#devtools)
+
+## Overview
+
+### Frames
 
 В протоколе WebSocket данные передаются с использованием последовательности фреймов.
 
-### Виды фреймов
+#### Frame types
 
 - [**Control Frames**](https://www.rfc-editor.org/rfc/rfc6455#section-5.5) - Контролирующие фреймы
   - [**Close**](https://www.rfc-editor.org/rfc/rfc6455#section-5.5.1) - Отправляется с клиента/сервера для закрытия соединения. Должен иметь [статус код](https://www.rfc-editor.org/rfc/rfc6455#section-7.4). Может иметь [сообщение с причиной закрытия соединения](https://www.rfc-editor.org/rfc/rfc6455#section-7.1.6). Конечный адресат (endpoint) должен прислать в ответ тоже контролирующий фрейм ***Close***. OpCode = 8
@@ -13,6 +23,10 @@
 - [**Data Frames**](https://www.rfc-editor.org/rfc/rfc6455#section-5.6) - Фреймы данных
   - Текстовый фрейм (Текстовое сообщение) в формате UTF-8.  OpCode = 1
   - Бинарный фрейм (Бинарное сообщение). OpCode = 2
+
+### WebSocket API
+
+[WebSocket](https://websockets.spec.whatwg.org/#websocket) использует интерфейс [`MessageEvent`](https://html.spec.whatwg.org/multipage/comms.html#messageevent) для события [`message`](https://html.spec.whatwg.org/multipage/indices.html#event-message).
 
 ## DevTools
 
