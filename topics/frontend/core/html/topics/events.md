@@ -5,7 +5,7 @@
 - [Events [DOM spec]](https://dom.spec.whatwg.org/#events)
 - [UI Events [W3C]](https://www.w3.org/TR/uievents)
 
-## Navigation
+## Table of content
 
 - [Lists of event types](#lists-of-event-types)
 - [Overview](#overview)
@@ -24,6 +24,8 @@
 - [Event flow](#event-flow)
   - [Trusted](#trusted)
 - [UI Events Interface Inheritance](#ui-events-interface-inheritance)
+- [Event handlers](#event-handlers)
+  - [Event handlers on elements, Document, and Window](#event-handlers-on-elements-document-and-window)
 
 ___
 
@@ -144,6 +146,15 @@ ___
 
 Помимо слушателей событий (*event listeners*), которые регистрируются через DOM, мы также можем работать с событиями, используя обработчики событий ([*event handlers*](https://html.spec.whatwg.org/multipage/webappapis.html#event-handler-attributes)).
 
-Обработчики событий можно устанавливать двумя способами: напрямую через атрибуты элемента или программно через DOM. В обоих случаях имя обработчика событий представляет собой строку, которая всегда начинается с “on”, за которой следует название события, для которого он предназначен.
+Обработчики событий можно устанавливать двумя способами:
 
-### [Event handlers on elements, Document objects, and Window objects](https://html.spec.whatwg.org/multipage/webappapis.html#event-handlers-on-elements,-document-objects,-and-window-objects)
+- Напрямую через **атрибуты элемента** в HTML. Например: (`<button onclick="myFunction()">Press me</button>`)
+- Программно через свойства элементов в DOM. Например: `element.onclick = myFunction`
+
+В обоих случаях имя обработчика событий представляет собой строку, которая всегда начинается с “on”, за которой следует название события, для которого он предназначен.
+
+В отличие от слушателей событий (*event listeners*), для одного элемента можно добавить **только один** обработчик события (*event handler*). Если вы установите несколько обработчиков для одного события, активным останется только последний.
+
+В большинстве случаев объект, предоставляющий обработчик событий (*event handler*), совпадает с объектом, к которому добавлен соответствующий прослушиватель событий (*event listener*). Однако элементы [`<body>`](https://html.spec.whatwg.org/multipage/sections.html#the-body-element) и [`<frameset>`](https://html.spec.whatwg.org/multipage/obsolete.html#frameset) предоставляют несколько обработчиков событий (*event handlers*), которые воздействуют на объект [Window](https://html.spec.whatwg.org/multipage/nav-history-apis.html#window) элемента, если таковой существует.
+
+### [Event handlers on elements, Document, and Window](https://html.spec.whatwg.org/multipage/webappapis.html#event-handlers-on-elements,-document-objects,-and-window-objects)
