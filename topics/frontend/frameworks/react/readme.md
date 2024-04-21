@@ -29,5 +29,10 @@
     - [ ] [nivo](https://github.com/plouc/nivo)
     - **Graphs**
       - [ ] [sigma.js](https://github.com/jacomyal/sigma.js)
+    - **Text editors**
+      - [ ] [Slate](https://docs.slatejs.org/)
+      - [ ] [Tiptap](https://tiptap.dev/)
+      - [ ] [Lexical](https://lexical.dev/)
+      - [ ] [CKEditor](https://ckeditor.com/)
 
 ### [Materials 📂](./materials.md)
