@@ -13,3 +13,4 @@
 - [ ] [CSSWG - CSS Values and Units Module Level 5](https://drafts.csswg.org/css-values-5/)
 - [ ] [CSSWG - CSS Object Model (CSSOM)](https://drafts.csswg.org/cssom-1/)
 - [ ] [CSSWG - Selectors Level 4](https://drafts.csswg.org/selectors-4/)
+- [ ] [CSSWG - Resize Observer](https://drafts.csswg.org/resize-observer/#resize-observer-interface)
