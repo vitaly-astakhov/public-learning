@@ -21,14 +21,16 @@
       - [ ] [AG Grid](https://github.com/ag-grid/ag-grid)
       - [ ] [react-virtualized](https://github.com/bvaughn/react-virtualized)
     - **Charts**
-    - [ ] [React Charts](https://react-charts.tanstack.com/)
-    - [ ] [recharts](https://github.com/recharts/recharts)
-    - [ ] [echarts](https://github.com/apache/echarts)
-    - [ ] [D3](https://d3js.org/)
-    - [ ] [Chart.js](https://www.chartjs.org/)
-    - [ ] [nivo](https://github.com/plouc/nivo)
+      - [ ] [React Charts](https://react-charts.tanstack.com/)
+      - [ ] [recharts](https://github.com/recharts/recharts)
+      - [ ] [echarts](https://github.com/apache/echarts)
+      - [ ] [D3](https://d3js.org/)
+      - [ ] [Chart.js](https://www.chartjs.org/)
+      - [ ] [nivo](https://github.com/plouc/nivo)
     - **Graphs**
       - [ ] [sigma.js](https://github.com/jacomyal/sigma.js)
+    - **Visualization**
+      - [ ] [deck.gl](https://deck.gl/)
     - **Text editors**
       - [ ] [Slate](https://docs.slatejs.org/)
       - [ ] [Tiptap](https://tiptap.dev/)
