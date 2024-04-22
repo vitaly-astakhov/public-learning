@@ -2,7 +2,9 @@
 
 ## [`<head>` element](https://html.spec.whatwg.org/multipage/semantics.html#the-head-element)
 
-Элемент **`<head>`** представляет собой набор метаданных для документа ([`Document`](https://html.spec.whatwg.org/multipage/dom.html#document)). И в себе может содержать следующие элементы: `<title>`, `<base>`, `<link>`, `<meta>`, `<style>`.
+Элемент **`<head>`** представляет собой набор метаданных для документа ([`Document`](https://html.spec.whatwg.org/multipage/dom.html#document)). И в себе может содержать следующие элементы: `<title>`, `<base>`, `<link>`, `<meta>`, `<style>`, `<script>`.
+
+Некоторые элементы, которые находятся в элементе **`<head>`** могут [блокировать рендеринг](https://web.dev/learn/performance/understanding-the-critical-path#what_resources_are_on_the_critical_rendering_path) страницы документа HTML, до тех пор пока они не будут полностью загружены. К ним относятся  `<style>`, `<script>` и `<link rel=stylesheet >`
 
 ### [`<title>` element](https://html.spec.whatwg.org/multipage/semantics.html#the-title-element) 🏷️
 
