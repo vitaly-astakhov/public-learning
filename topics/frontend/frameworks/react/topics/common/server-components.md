@@ -3,8 +3,10 @@
 ## Materials
 
 - [x] [RFC: React Server Components [github.com]](https://github.com/reactjs/rfcs/blob/main/text/0188-server-components.md)
-- [] [RSC From Scratch. Part 1: Server Components [github.com]](https://github.com/reactwg/server-components/discussions/5)
-- [] [Making Sense of React Server Components](https://www.joshwcomeau.com/react/server-components/)
+- [x] [RSC From Scratch. Part 1: Server Components [github.com]](https://github.com/reactwg/server-components/discussions/5)
+- [x] [Making Sense of React Server Components](https://www.joshwcomeau.com/react/server-components/)
+- [x] [Devtools for React Server Components](https://www.alvar.dev/blog/creating-devtools-for-react-server-components)
+- [ ] [Demystifying React Server Components with NextJS 13 App Router](https://demystifying-rsc.vercel.app/)
 
 ## Overview
 
@@ -18,6 +20,10 @@
 - Серверные Компоненты сохраняют состояние клиента при перезагрузке. Это означает, что состояние клиента, фокус и даже текущая анимация не нарушаются и не сбрасываются при повторной загрузке дерева Серверных Компонентов.
 - Серверные Компоненты визуализируются постепенно, и пользовательский интерфейс передается клиенту в потоковом режиме. В сочетании с режимом ожидания (`Suspense`) это позволяет разработчикам создавать преднамеренные состояния загрузки и быстро показывать важный контент, ожидая загрузки оставшейся части страницы.
 - Разработчики также могут совместно использовать код между сервером и клиентом, позволяя использовать один компонент для отображения статической версии некоторого контента на сервере по одному маршруту и редактируемой версии этого контента на клиенте по другому маршруту.
+
+Серверные компоненты никогда не отрисовываются повторно (*never re-render*). Они запускаются на сервере один раз для создания пользовательского интерфейса. Отрисованное значение (*rendered value*) отправляется клиенту и фиксируется на месте. Что касается React, то этот вывод является неизменяемым и никогда не изменится.
+
+Когда мы добавляем директиву `"use client"` в компоненте, мы создаем "клиентскую границу" (*"client boundary"*). Все компоненты в пределах этой границы неявно (*implicitly*) преобразуются в Клиентские Компоненты. Несмотря на то, что такие вложенные компоненты (*nested components*), не имеют директивы `"use client"`, они все равно будут выполнять гидратацию / рендеринг на клиенте в данной конкретной ситуации. Это означает, что нам не нужно добавлять `"use client"` к каждому отдельному файлу, который должен запускаться на клиенте. На практике нам нужно добавлять это только при создании новых "клиентских границ" (*"client boundary"*).
 
 ### [Capabilities & Constraints of Server and Client Components](https://github.com/reactjs/rfcs/blob/main/text/0188-server-components.md#capabilities--constraints-of-server-and-client-components)
 
@@ -37,7 +43,10 @@
 - **Client Components** (*Клиентские Компоненты*): Это стандартные компоненты React, поэтому все правила, к которым вы привыкли, применяются. Основные новые правила, которые следует учитывать, - это то, чего они не могут делать в отношении серверных компонентов. Клиентские компоненты:
   - ❌ Не могут (*may not*) импортировать серверные компоненты или вызывать серверные хуки/утилиты, потому что они работают только на сервере
     - Однако Серверный Компонент может (*may*) передавать другой Серверный Компонент в качестве дочернего Клиентскому Компоненту: `<ClientTabBar><ServerTabContent /></ClientTabBar>`. С точки зрения Клиентского Компонента, его дочерним элементом будет уже отображенное дерево, такое как выходные данные ServerTabContent. Это означает, что серверный и клиентский компоненты могут быть вложены и чередоваться в дереве на любом уровне.
-    <!-- Не понимаю это противоречие -->
+    <!--
+      Не понимаю это противоречие
+      Возможное объяснение: <https://www.joshwcomeau.com/react/server-components/#workarounds-7>
+    -->
   - ❌ Не могут (*may not*) использовать серверные источники данных.
   - ✅ Могут (*may*) использовать состояние.
   - ✅ Могут (*may*) использовать эффекты.
@@ -55,3 +64,8 @@
 - ❌ Не могут (*may not*) использовать серверные источники данных.
 - ❌ Не могут (*may not*) отображать Серверные Компоненты или использовать серверные хуки.
 - ✅ Могут (*may*) использоваться как на сервере, так и на клиенте.
+
+## Tools and libraries
+
+- [RSC Parser](https://rsc-parser.vercel.app/)
+- [RSC Devtools](https://chrome.google.com/webstore/detail/rsc-devtools/jcejahepddjnppkhomnidalpnnnemomn)
