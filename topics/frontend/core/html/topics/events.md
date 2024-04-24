@@ -114,7 +114,7 @@ ___
 
 Как только путь распространения ([*propagation path*](https://www.w3.org/TR/uievents/#propagation-path)) определен, объект события проходит через одну или несколько фаз события ([*event phases*](https://www.w3.org/TR/uievents/#event-phase)).
 
-Существует три фазы события: фаза захвата ([*capture phase*](https://www.w3.org/TR/uievents/#capture-phase)), фаза цели ([*target phase*](https://www.w3.org/TR/uievents/#target-phase)) и фаза всплытия ([*bubble phase*](https://www.w3.org/TR/uievents/#bubble-phase)). Объекты события завершают эти фазы, как описано ниже. Фаза будет пропущена, если она не поддерживается или если распространение объекта события было остановлено. Например, если атрибуту [`event.bubbles`](https://dom.spec.whatwg.org/#dom-event-bubbles) присвоено значение `false`, фаза всплытия будет пропущена, а если перед отправкой была вызвана функция  [`event.stopPropagation()`](https://dom.spec.whatwg.org/#dom-event-stoppropagation), то будут пропущены все фазы.
+Существует три фазы события: фаза захвата ([*capture phase*](https://www.w3.org/TR/uievents/#capture-phase)), фаза цели ([*target phase*](https://www.w3.org/TR/uievents/#target-phase)) и фаза всплытия ([*bubble phase*](https://www.w3.org/TR/uievents/#bubble-phase)). Объекты события завершают эти фазы, как описано ниже. Фаза будет пропущена, если она не поддерживается или если распространение объекта события было остановлено. Например, если атрибуту [`event.bubbles`](https://dom.spec.whatwg.org/#dom-event-bubbles) присвоено значение `false`, фаза всплытия будет пропущена, а если перед отправкой была вызвана функция [`event.stopPropagation()`](https://dom.spec.whatwg.org/#dom-event-stoppropagation), то будут пропущены все фазы.
 
 ___
 

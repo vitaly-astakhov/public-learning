@@ -18,7 +18,7 @@ ___
 
 ## Agent Cluster
 
-<!-- TODO: Разобраться с темой Agent Cluster (дочитать статьи)  -->
+<!-- TODO: Разобраться с темой Agent Cluster (дочитать статьи) -->
 
 ### Materials
 

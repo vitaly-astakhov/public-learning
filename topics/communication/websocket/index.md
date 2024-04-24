@@ -21,7 +21,7 @@
   - [**Ping**](https://www.rfc-editor.org/rfc/rfc6455#section-5.5.2) - Отправляется с клиента/сервера для проверки жизнеспособности соединения. Конечный адресат (endpoint) должен вернуть контролирующий фрейм ***Pong***. OpCode = 9
   - [**Pong**](https://www.rfc-editor.org/rfc/rfc6455#section-5.5.3) - Отправляется в ответ на контролирующий фрейм ***Ping***. OpCode = 10
 - [**Data Frames**](https://www.rfc-editor.org/rfc/rfc6455#section-5.6) - Фреймы данных
-  - Текстовый фрейм (Текстовое сообщение) в формате UTF-8.  OpCode = 1
+  - Текстовый фрейм (Текстовое сообщение) в формате UTF-8. OpCode = 1
   - Бинарный фрейм (Бинарное сообщение). OpCode = 2
 
 ### WebSocket API
