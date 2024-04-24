@@ -37,7 +37,7 @@ ___
 - **Возвращает**: сервер **ДОЛЖЕН (SHOULD)** вернуть любой заголовок (**header**), который может указывать на дополнительные функции (опции), реализованные сервером и применимые к целевому ресурсу (например, [`Allow`](https://www.rfc-editor.org/rfc/rfc9110#field.allow). Так же может вернуть и другие заголовки.
 - Дополнения:
   - **CORS** - Поле `Allow` [не имеет отношения к протоколу **CORS**.](https://fetch.spec.whatwg.org/#http-access-control-allow-methods)
-  - <details><summary>Запрос `OPTIONS` со звездочкой  ("*" - asterisk form) в качестве цели запроса</summary>
+  - <details><summary>Запрос `OPTIONS` со звездочкой ("*" - asterisk form) в качестве цели запроса</summary>
     <p>
 
       Запрос `OPTIONS` со звездочкой ("*" - asterisk form) в качестве цели запроса ([Раздел 7.1](https://www.rfc-editor.org/rfc/rfc9110#target.resource)) применяется к серверу в целом, а не к специфического ресурса.
@@ -85,7 +85,7 @@ ___
 
 ### [PATCH](https://www.rfc-editor.org/rfc/rfc5789#section-2) - ИСПРАВЛЕНИЕ
 
-- **Описание**: Метод `PATCH` запрашивает (**request**) у сервера-источника изменение состояния [целевого ресурса](https://www.rfc-editor.org/rfc/rfc9110#target.resource) состоянием, определенным представлением в содержимое сообщения запроса. В отличие от `PUT`, `PATCH` применяется для  Этот метод содержит набор инструкций, описывающих, как изменить текущий ресурс для создания новой версии. Это можно сравнить с исправлением опечаток в книге, не заменяя всю книгу целиком.
+- **Описание**: Метод `PATCH` запрашивает (**request**) у сервера-источника изменение состояния [целевого ресурса](https://www.rfc-editor.org/rfc/rfc9110#target.resource) состоянием, определенным представлением в содержимое сообщения запроса. В отличие от `PUT`, `PATCH` этот метод содержит набор инструкций, описывающих, как изменить текущий ресурс для создания новой версии. Это можно сравнить с исправлением опечаток в книге, не заменяя всю книгу целиком.
 - **Использование**:
   - Используется для частичного изменения ресурса сервера без замены всего ресурса. как это делает `PUT`.
   - Если ресурс в момента запроса (**request**) с методом `PATCH` не существует, то сервер-источник может создать такой ресурс и **ДОЛЖЕН (SHOULD)** сообщить агенту пользователя (**user agent**), отправив ответ [201 (Created).](https://www.rfc-editor.org/rfc/rfc9110#status.201)
@@ -93,12 +93,12 @@ ___
 - **Дополнительно**:
   <details><summary>Тонкости</summary>
   <p>
-  Clients need to choose when to use `PATCH` rather than `PUT`.  For
+  Clients need to choose when to use `PATCH` rather than `PUT`. For
   example, if the patch document size is larger than the size of the
   new resource data that would be used in a `PUT`, then it might make
-  sense to use `PUT` instead of `PATCH`.  A comparison to `POST` is even more
+  sense to use `PUT` instead of `PATCH`. A comparison to `POST` is even more
   difficult, because `POST` is used in widely varying ways and can
-  encompass `PUT` and `PATCH`-like operations if the server chooses.  If
+  encompass `PUT` and `PATCH`-like operations if the server chooses. If
   the operation does not modify the resource identified by the Request-
   URI in a predictable way, `POST` should be considered instead of `PATCH`
   or `PUT`.
@@ -124,7 +124,7 @@ ___
 ### [`DELETE`](https://www.rfc-editor.org/rfc/rfc9110#section-9.3.5) - УДАЛИТЬ
 
 - **Команда серверу**: Удалите все текущие представления целевого ресурса.
-- **Описание**: Метод `DELETE` запрашивает у сервера-источника  (**origin server**) удаление связи между [целевым ресурсом](https://www.rfc-editor.org/rfc/rfc9110#target.resource) и его текущей функциональностью.
+- **Описание**: Метод `DELETE` запрашивает у сервера-источника (**origin server**) удаление связи между [целевым ресурсом](https://www.rfc-editor.org/rfc/rfc9110#target.resource) и его текущей функциональностью.
 - **Использование**:
   - Используется для удаления указанного ресурса сервера.
 

@@ -14,7 +14,7 @@ Environment Record определяет некоторые типы привяз
 
 ### Function Environment Record
 
-Запись среды функции (**Function Environment Record**) - это запись среды,  которая используется для представления области верхнего уровня функции и обеспечивает привязку **this** и **super** исходя из объявлений функции. Наследует все методы [Declarative Environment Record](https://tc39.es/ecma262/multipage/executable-code-and-execution-contexts.html#sec-declarative-environment-records)
+Запись среды функции (**Function Environment Record**) - это запись среды, которая используется для представления области верхнего уровня функции и обеспечивает привязку **this** и **super** исходя из объявлений функции. Наследует все методы [Declarative Environment Record](https://tc39.es/ecma262/multipage/executable-code-and-execution-contexts.html#sec-declarative-environment-records)
 
 ## [Realm](https://tc39.es/ecma262/multipage/executable-code-and-execution-contexts.html#sec-code-realms)
 

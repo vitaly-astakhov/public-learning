@@ -18,7 +18,7 @@ ___
 
 **Control data** - это описание и путь/направление сообщения. Описывает то, что получатель должен знать немедленно.
 
-- Для запросов (*request*) **control data** будет состоять из:  метода (method), цели запроса (request target), версии HTTP протокола.
+- Для запросов (*request*) **control data** будет состоять из: метода (method), цели запроса (request target), версии HTTP протокола.
 - Для ответов (*response*) **control data** будет состоять из: статуса (status code), опциональной фраза о причине, версии HTTP протокола
 
 > [!NOTE]
@@ -29,13 +29,13 @@ ___
 > <p>
 >
 > В HTTP/1.1 и более ранних протоколах **control data** отправляются в виде первой строки сообщения.
->  ___
+> ___
 >
 > ![Mozilla Firefox screenshot](../assets/messages/contol-data-firefox.png)
 >
 > В HTTP/2 и HTTP/3 **control data** передаются как *pseudo-header* поля с зарезервированными именными префиксами >(например, ":authority")
 >
->  ___
+> ___
 >
 > ![HTTP/2 (Chrome DevTools screenshot)](../assets/messages/contol-data-chrome.png)
 >

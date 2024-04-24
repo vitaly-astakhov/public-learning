@@ -51,7 +51,7 @@ ___
 
 ### Browsing context
 
-Контексты просмотра (**browsing contexts**) -  это ориентированное на разработчиков представление серии документов. Они соответствуют объектам [`WindowProxy`](https://html.spec.whatwg.org/multipage/nav-history-apis.html#windowproxy) 1:1 (один к одному). Каждый навигационный объект (**navigable**) может представлять собой серию контекстов просмотра (**browsing contexts**), при этом [переключение](https://html.spec.whatwg.org/multipage/browsers.html#browsing-context-group-switches-due-to-cross-origin-opener-policy) между этими контекстами просмотра происходит при определенных четко определенных обстоятельствах.
+Контексты просмотра (**browsing contexts**) - это ориентированное на разработчиков представление серии документов. Они соответствуют объектам [`WindowProxy`](https://html.spec.whatwg.org/multipage/nav-history-apis.html#windowproxy) 1:1 (один к одному). Каждый навигационный объект (**navigable**) может представлять собой серию контекстов просмотра (**browsing contexts**), при этом [переключение](https://html.spec.whatwg.org/multipage/browsers.html#browsing-context-group-switches-due-to-cross-origin-opener-policy) между этими контекстами просмотра происходит при определенных четко определенных обстоятельствах.
 
 A browsing context is a programmatic representation of a series of documents, multiple of which can live within a single navigable. Each browsing context has a corresponding WindowProxy object, as well as the following:
 

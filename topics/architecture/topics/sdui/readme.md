@@ -7,4 +7,4 @@
 
 ### [Materials 📂](./materials.md)
 
-[^1]: Другое название -  **backend Driven UI (BDUI)**
+[^1]: Другое название - **backend Driven UI (BDUI)**

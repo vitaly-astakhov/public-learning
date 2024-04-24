@@ -14,8 +14,8 @@
 
 ## Other
 
-- [ ]  [JSON CRDT](https://jsonjoy.com/specs/json-crdt)
-- [ ]  [JSON for Linking Data](https://json-ld.org/)
+- [ ] [JSON CRDT](https://jsonjoy.com/specs/json-crdt)
+- [ ] [JSON for Linking Data](https://json-ld.org/)
 
 ## Libraries
 
