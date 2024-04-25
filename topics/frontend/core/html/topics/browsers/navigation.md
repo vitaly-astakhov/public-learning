@@ -1,5 +1,24 @@
 # Navigation
 
+## Materials
+
+- [Navigation API - [github]](https://github.com/WICG/navigation-api/blob/main/README.md)
+- [The navigation API - [HTML Spec]](https://html.spec.whatwg.org/multipage/nav-history-apis.html#navigation-api)
+
+## Table of contents
+
+- [Overview](#overview)
+  - [interface `Location`](#interface-location)
+  - [interface `History`](#interface-history)
+  - [interface `Navigation`](#interface-navigation)
+- [Navigables and browsing contexts](#navigables-and-browsing-contexts)
+  - [Navigable](#navigable)
+    - [Navigable target names](#navigable-target-names)
+  - [Traversable navigable](#traversable-navigable)
+  - [Browsing context](#browsing-context)
+
+## Overview
+
 Для работы с навигацией и историей сеансов HTML спецификация предлагает следующие API:
 
 ### [interface `Location`](https://html.spec.whatwg.org/multipage/nav-history-apis.html#the-location-interface)
@@ -11,11 +30,6 @@
 ### [interface `History`](https://html.spec.whatwg.org/multipage/nav-history-apis.html#the-history-interface)
 
 ### [interface `Navigation`](https://html.spec.whatwg.org/multipage/nav-history-apis.html#navigation-interface)
-
-#### Materials
-
-- [Navigation API - [github]](https://github.com/WICG/navigation-api/blob/main/README.md)
-- [The navigation API - [HTML Spec]](https://html.spec.whatwg.org/multipage/nav-history-apis.html#navigation-api)
 
 ___
 
@@ -52,7 +66,5 @@ ___
 ### Browsing context
 
 Контексты просмотра (**browsing contexts**) - это ориентированное на разработчиков представление серии документов. Они соответствуют объектам [`WindowProxy`](https://html.spec.whatwg.org/multipage/nav-history-apis.html#windowproxy) 1:1 (один к одному). Каждый навигационный объект (**navigable**) может представлять собой серию контекстов просмотра (**browsing contexts**), при этом [переключение](https://html.spec.whatwg.org/multipage/browsers.html#browsing-context-group-switches-due-to-cross-origin-opener-policy) между этими контекстами просмотра происходит при определенных четко определенных обстоятельствах.
-
-A browsing context is a programmatic representation of a series of documents, multiple of which can live within a single navigable. Each browsing context has a corresponding WindowProxy object, as well as the following:
 
 Контекст просмотра (**browsing context**) - это программное представление серии документов, несколько из которых могут находиться в пределах одного объекта навигации. Каждый контекст просмотра (**browsing context**) имеет соответствующий объект [WindowProxy](https://html.spec.whatwg.org/multipage/nav-history-apis.html#windowproxy), а также следующее другие концепции [описанные в спецификации](https://html.spec.whatwg.org/multipage/document-sequences.html#browsing-context)
