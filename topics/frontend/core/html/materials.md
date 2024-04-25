@@ -6,6 +6,9 @@
 - [ ] [WHATWG - DOM Living Standard](https://dom.spec.whatwg.org/)
 - [x] [W3C - UI Events](https://w3c.github.io/uievents/) - Остановился: [5. Event Types](https://www.w3.org/TR/uievents/#event-types)
 - [ ] [SVGWG - Scalable Vector Graphics (SVG) 2](https://svgwg.org/svg2-draft/)
+- [ ] [Service Worker](https://w3c.github.io/ServiceWorker/)
+- [ ] [Secure Contexts](https://w3c.github.io/webappsec-secure-contexts)
+- [ ] [Trusted Types](https://w3c.github.io/trusted-types/dist/spec/)
 
 ## Articles
 
