@@ -6,9 +6,14 @@
 - [ ] [WHATWG - DOM Living Standard](https://dom.spec.whatwg.org/)
 - [x] [W3C - UI Events](https://w3c.github.io/uievents/) - Остановился: [5. Event Types](https://www.w3.org/TR/uievents/#event-types)
 - [ ] [SVGWG - Scalable Vector Graphics (SVG) 2](https://svgwg.org/svg2-draft/)
-- [ ] [Service Worker](https://w3c.github.io/ServiceWorker/)
-- [ ] [Secure Contexts](https://w3c.github.io/webappsec-secure-contexts)
-- [ ] [Trusted Types](https://w3c.github.io/trusted-types/dist/spec/)
+- [ ] [W3C - Service Worker](https://w3c.github.io/ServiceWorker/)
+- [ ] [W3C - Secure Contexts](https://w3c.github.io/webappsec-secure-contexts)
+- [ ] [W3C - Trusted Types](https://w3c.github.io/trusted-types/dist/spec/)
+- [ ] [W3C - Shared Storage API](https://wicg.github.io/shared-storage/)
+- [ ] [W3C - Geolocation API](https://w3c.github.io/geolocation-api/#geolocation_interface)
+- [ ] [W3C - Web Cryptography API](https://w3c.github.io/webcrypto/)
+- [ ] [*DRAFT* - Web Monetization](https://webmonetization.org/specification/)
+  - [Intro to Web Monetization](https://webmonetization.org/docs/)
 
 ## Articles
 
