@@ -21,11 +21,3 @@
 Элемент **`<img>`** представляет собой изображение (***image***).
 
 [Подробнее про элемент **`<img>`** 📂](./images.md)
-
-## [Media elements](https://html.spec.whatwg.org/multipage/media.html#media-elements)
-
-### [`video` element](https://html.spec.whatwg.org/multipage/media.html#the-video-element)
-
-### [`audio` element](https://html.spec.whatwg.org/multipage/media.html#the-audio-element)
-
-### [`track` element](https://html.spec.whatwg.org/multipage/media.html#the-track-element)
