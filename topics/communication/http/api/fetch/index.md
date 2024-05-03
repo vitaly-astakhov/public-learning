@@ -43,7 +43,7 @@ const headers = new Headers([
 
 Получаемый результат будет такой:
 
-![Результат сортировки заголовков и комбинирования полей](./assets/fetch-api/sorting-and-combining-example.png)
+![Результат сортировки заголовков и комбинирования полей](./assets/sorting-and-combining-example.png)
 
 </p>
 </details>
