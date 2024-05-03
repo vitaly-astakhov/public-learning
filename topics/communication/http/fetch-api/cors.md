@@ -2,12 +2,25 @@
 
 ## Navigation
 
-- [CORS response](#request)
-- [CORS response](#response)
+- [Overview](#overview)
+- [CORS Request](#cors-request)
+  - [Access-Control-Request-Method 🎩➡️](#access-control-request-method-️)
+  - [Access-Control-Request-Headers 🎩➡️](#access-control-request-headers-️)
+  - [CORS-safelisted request header](#cors-safelisted-request-header)
+  - [no-CORS-safelisted request-header name](#no-cors-safelisted-request-header-name)
+- [CORS Response](#cors-response)
   - [Response to CORS request](#response-to-cors-request)
+    - [Response to CORS request headers](#response-to-cors-request-headers)
+      - [Access-Control-Allow-Origin](#access-control-allow-origin)
+      - [Access-Control-Allow-Credentials](#access-control-allow-credentials)
+      - [Access-Control-Expose-Headers 🎩⬅️](#access-control-expose-headers-️)
   - [Response to CORS preflight request](#response-to-cors-preflight-request)
-
-___
+    - [Response to CORS preflight request headers](#response-to-cors-preflight-request-headers)
+    - [Access-Control-Allow-Methods 🎩⬅️](#access-control-allow-methods-️)
+    - [Access-Control-Allow-Headers 🎩⬅️](#access-control-allow-headers-️)
+    - [Access-Control-Max-Age 🎩⬅️](#access-control-max-age-️)
+  - [CORS-safelisted response-header name](#cors-safelisted-response-header-name)
+- [Credentials](#credentials)
 
 ## Overview
 
@@ -20,7 +33,7 @@ ___
 
 Методы, которые считаются безопасными для **CORS**: `GET`, `HEAD`, or `POST`.
 
-## Request
+## CORS Request
 
 **CORS request (запрос CORS)** — это HTTP-запрос, который включает заголовок `Origin`.
 
@@ -39,15 +52,13 @@ ___
 
 <p>
 
-![youtube.com - CORS preflight request example](../assets/cors/cors-preflight-request-youtube.png)
+![youtube.com - CORS preflight request example](./assets/cors/cors-preflight-request-youtube.png)
 
-![binance.com - CORS preflight request example](../assets/cors/cors-preflight-request-binance.png)
+![binance.com - CORS preflight request example](./assets/cors/cors-preflight-request-binance.png)
 
 </p>
 
 </details>
-
-___
 
 ### [CORS-safelisted request header](https://fetch.spec.whatwg.org/#cors-safelisted-request-header)
 
@@ -66,7 +77,7 @@ ___
 - [`Content-Language`](https://www.rfc-editor.org/rfc/rfc9110#section-8.5)
 - [`Content-Type`](https://www.rfc-editor.org/rfc/rfc9110#section-8.3)
 
-## Response
+## CORS Response
 
 ### Response to CORS request
 

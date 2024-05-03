@@ -1,18 +1,28 @@
 # Messages
 
-## [Message Framing](https://www.rfc-editor.org/rfc/rfc9110#name-framing-and-completeness)
+## Table of contents
+
+- [Message Framing](#message-framing)
+- [Message](#message)
+  - [Control data](#control-data)
+    - [Control data difference](#control-data-difference)
+    - [Control data with HTTP/1.1](#control-data-with-http11)
+    - [Control data with HTTP/1.2](#control-data-with-http12)
+  - [Headers fields](#headers-fields)
+  - [Content](#content)
+  - [Trailers fields](#trailers-fields)
+
+## [Message](https://www.rfc-editor.org/rfc/rfc9110#section-6)
+
+**Сообщение (*message*)** состоит из **control data**, **headers fields**, **content**.
+
+### [Message Framing](https://www.rfc-editor.org/rfc/rfc9110#name-framing-and-completeness)
 
 Фрейминг сообщения (**message framing**) указывает, на то как начинается и заканчивается каждое сообщение (**message**), так что каждое сообщение можно отличить от других сообщений или помех в том же соединении.
 
 Каждая основная версия HTTP определяет свой собственный механизм фрейминга.
 
-Сообщение считается *«полным»*, когда все октеты, указанные в его кадре (**framing**), доступны.
-
-___
-
-## [Message](https://www.rfc-editor.org/rfc/rfc9110#section-6)
-
-**Сообщение (*message*)** состоит из **control data**, **headers fields**, **content**.
+Сообщение считается *"полным"* (*complete*), когда все октеты, указанные в его кадре (**framing**), доступны.
 
 ### [Control data](https://www.rfc-editor.org/rfc/rfc9110#section-6.2)
 
@@ -21,28 +31,21 @@ ___
 - Для запросов (*request*) **control data** будет состоять из: метода (method), цели запроса (request target), версии HTTP протокола.
 - Для ответов (*response*) **control data** будет состоять из: статуса (status code), опциональной фраза о причине, версии HTTP протокола
 
-> [!NOTE]
-> Существуют различия в том как **control data** передается в сообщениях в зависимости от версии протокола
->
-> <details>
-> <summary>Подробнее про различия</summary>
-> <p>
->
-> В HTTP/1.1 и более ранних протоколах **control data** отправляются в виде первой строки сообщения.
-> ___
->
-> ![Mozilla Firefox screenshot](../assets/messages/contol-data-firefox.png)
->
-> В HTTP/2 и HTTP/3 **control data** передаются как *pseudo-header* поля с зарезервированными именными префиксами >(например, ":authority")
->
-> ___
->
-> ![HTTP/2 (Chrome DevTools screenshot)](../assets/messages/contol-data-chrome.png)
->
-> ![HTTP/2 Opened HAR file (Visual Studio Code screenshot)](../assets/messages/contol-data-har.png)
->
-> </p>
-> </details>
+#### Control data difference
+
+Существуют различия в том как **control data** передается в сообщениях в зависимости от версии протокола
+
+#### Control data with HTTP/1.1
+
+В HTTP/1.1 и более ранних протоколах **control data** отправляются в виде первой строки сообщения.
+
+[Примеры передачи **control data** через HTTP/1.1 📂](./examples/example-contol-data.md#control-data-with-http11)
+
+#### Control data with HTTP/1.2
+
+В HTTP/2 и HTTP/3 **control data** передаются как *pseudo-header* поля с зарезервированными именными префиксами >(например, ":authority")
+
+[Примеры передачи **control data** через HTTP/2 и HTTP/3 📂](./examples/example-contol-data.md#control-data-with-http2-and-http3)
 
 ### [Headers fields](https://www.rfc-editor.org/rfc/rfc9110#section-6.3)
 
