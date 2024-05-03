@@ -4,7 +4,7 @@
   "description": "Этот репозиторий – мой способ систематизировать и обновлять знания в разработке",
   "main": "index.js",
   "scripts": {
-    "lint:md": "markdownlint **/*.md",
+    "lint:md": "markdownlint **/*.md --ignore node_modules",
     "lint:commit": "commitlint --edit",
     "lint:staged": "lint-staged",
     "lint": "npm run lint:md",
