@@ -7,7 +7,7 @@
     "lint:md": "markdownlint **/*.md --ignore node_modules",
     "lint:commit": "commitlint --edit",
     "lint:staged": "lint-staged",
-    "lint": "npm run lint:md",
+    "lint": "node --run lint:md",
     "prepare": "husky"
   },
   "type": "module",
@@ -20,5 +20,9 @@
     "lint-staged": "^15.2.2",
     "markdownlint": "^0.34.0",
     "markdownlint-cli": "^0.40.0"
+  },
+  "engines": {
+    "npm": ">=10.7.0",
+    "node": ">=22.0.0"
   }
 }
