@@ -23,12 +23,13 @@ ___
 - [ ] [WHATWG - Fetch Standard](https://fetch.spec.whatwg.org) - [[**Fetch API** 📂](./api/fetch/readme.md)] 🚧 Остановился на секции [4. Fetching](https://fetch.spec.whatwg.org/#fetching), вернусь, когда прочитаю секцию [8 Web application APIs](https://html.spec.whatwg.org/multipage/webappapis.html#webappapis) HTML спецификации, чтобы лучше понимать некоторые концепции алгоритма "**fetching**".
 - [x] [W3C - Fetch Metadata Request Headers](https://www.w3.org/TR/fetch-metadata/) - [[**Fetch Metadata** 📂](./api/fetch/fetch-metadata.md)]
 - [x] [IETF *DRAFT* - Cookies: HTTP State Management Mechanism](https://www.ietf.org/archive/id/draft-ietf-httpbis-rfc6265bis-13.html) - [[**State Management** 📂](./topics/state-management.md)]
-- [ ] [W3C - Content Security Policy Level 3](https://www.w3.org/TR/CSP3/)
+- [x] [W3C - Content Security Policy Level 3](https://www.w3.org/TR/CSP3/) - [[**CSP** 📂](./topics/csp.md)]
 - [ ] [IETF RFC 6797 - HTTP Strict Transport Security (HSTS)](https://datatracker.ietf.org/doc/html/rfc6797)
 - [ ] [IETF RFC 8942 - HTTP Client Hints](https://www.rfc-editor.org/rfc/rfc8942)
 - [ ] [W3C Community - Client Hints Infrastructure](https://wicg.github.io/client-hints-infrastructure)
 - [ ] [W3C Community - User-Agent Client Hints](https://wicg.github.io/ua-client-hints/)
 - [ ] [W3C - Reporting API](https://www.w3.org/TR/reporting-1/)
+  - [ ] [CSP Reporting](https://w3c.github.io/webappsec-csp/#reporting)
 - [ ] [IETF RFC 9209 - The Proxy-Status HTTP Response Header Field](https://datatracker.ietf.org/doc/rfc9209/)
 - [ ] [IETF RFC 9218 - Extensible Prioritization Scheme for HTTP](https://www.rfc-editor.org/rfc/rfc9218.html)
 - [ ] [IETF RFC 9440 - Client-Cert HTTP Header Field](https://www.rfc-editor.org/rfc/rfc9440.html)
@@ -52,3 +53,5 @@ ___
 - [x] [htmx - Why I Tend Not To Use Content Negotiation](https://htmx.org/essays/why-tend-not-to-use-content-negotiation/) - [**[topic] Content Negotiation 📂**](./topics/content-negotiation.md)
 - [ ] [HTTP Cache](https://www.chromium.org/developers/design-documents/network-stack/http-cache/)
 - [ ] [What is Idempotency?](https://blog.dreamfactory.com/what-is-idempotency)
+- [ ] [GitHub’s CSP journey](https://github.blog/2016-04-12-githubs-csp-journey)
+- [ ] [GitHub’s post-CSP journey](https://github.blog/2017-01-19-githubs-post-csp-journey/)
