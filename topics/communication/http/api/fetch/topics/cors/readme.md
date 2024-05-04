@@ -52,9 +52,9 @@
 
 <p>
 
-![youtube.com - CORS preflight request example](./assets/cors/cors-preflight-request-youtube.png)
+![youtube.com - CORS preflight request example](./assets/cors-preflight-request-youtube.png)
 
-![binance.com - CORS preflight request example](./assets/cors/cors-preflight-request-binance.png)
+![binance.com - CORS preflight request example](./assets/cors-preflight-request-binance.png)
 
 </p>
 

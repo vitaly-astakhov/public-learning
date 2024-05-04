@@ -1,8 +1,10 @@
 # Fetch API
 
-## URL
+## Overview
 
-**Local scheme (локальная схема)** - это "about", "blob" или "data".
+### URL
+
+Локальная схема (**local scheme**) - это "about", "blob" или "data".
 
 URL-адрес является локальным, если его схема является локальной схемой.
 
@@ -10,15 +12,15 @@ URL-адрес является локальным, если его схема �
 
 **Fetch scheme** — это **local scheme**, "file" или **HTTP(S) scheme**.
 
-## HTTP
+### HTTP
 
-### [Methods](https://fetch.spec.whatwg.org/#methods)
+#### [Methods](https://fetch.spec.whatwg.org/#methods)
 
 Методы, которые запрещены (**forbidden method**) для использования в Fetch API : `CONNECT`, `TRACE`.
 
 Нормализация - это процесс приведения методов, к uppercase формату. Это делается Fetch API, так как методы на самом деле "чувствительны к регистру" (case-sensitive).
 
-### [Headers](https://fetch.spec.whatwg.org/#terminology-headers)
+#### [Headers](https://fetch.spec.whatwg.org/#terminology-headers)
 
 HTTP обычно называет заголовок «полем» (**field**) или «полем заголовка» (**header field**). Веб-платформа использует более разговорный термин «заголовок».
 
@@ -43,12 +45,12 @@ const headers = new Headers([
 
 Получаемый результат будет такой:
 
-![Результат сортировки заголовков и комбинирования полей](./assets/sorting-and-combining-example.png)
+![Результат сортировки заголовков и комбинирования полей](../assets/sorting-and-combining-example.png)
 
 </p>
 </details>
 
-### [Forbidden request-header](https://fetch.spec.whatwg.org/#forbidden-request-header)
+#### [Forbidden request-header](https://fetch.spec.whatwg.org/#forbidden-request-header)
 
 Это поля считаются запрещенными, так что их нельзя добавить или изменить программно, поэтому пользовательский агент сохраняет полный контроль над ними.
 
@@ -76,12 +78,12 @@ const headers = new Headers([
 - `Proxy-`
 - `Sec-`
 
-### [Forbidden response-header name](https://fetch.spec.whatwg.org/#forbidden-response-header-name)
+#### [Forbidden response-header name](https://fetch.spec.whatwg.org/#forbidden-response-header-name)
 
 - `Set-Cookie`
 - `Set-Cookie2`
 
-## [Statuses](https://fetch.spec.whatwg.org/#statuses)
+### [Statuses](https://fetch.spec.whatwg.org/#statuses)
 
 **Fetch API** работает только со статусами в диапазоне от 0 до 999
 
@@ -127,4 +129,4 @@ const headers = new Headers([
 
 Больше информации: [Consider deploying cross-origin resource policy!](https://resourcepolicy.fyi/)
 
-### [Sec-Purpose](https://fetch.spec.whatwg.org/#sec-purpose-header)
+### [Sec-Purpose](https://fetch.spec.whatwg.org/#sec-purpose-header) 🎩➡️
