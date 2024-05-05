@@ -51,6 +51,6 @@ ___
 
 ### [CSP 📂](./csp.md)
 
-### [Early Hints 📂](./early-hints.md)
+### [Early Hints 📂](./hints/early-hints.md)
 
-### [Hints 📂](./hints.md)
+### [Hints 📂](./hints/hints.md)

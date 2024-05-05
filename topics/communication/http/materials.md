@@ -36,7 +36,7 @@ ___
 - [ ] [IETF RFC 9530 - Digest Fields](https://datatracker.ietf.org/doc/rfc9530/)
 - [ ] [IETF RFC 9421 - HTTP Message Signatures](https://datatracker.ietf.org/doc/rfc9421/)
 - [ ] [IETF *DRAFT* - Structured Field Values for HTTP](https://www.ietf.org/archive/id/draft-ietf-httpbis-sfbis-05.html)
-- [x] [IETF RFC 8297 An HTTP Status Code for Indicating Hints](https://datatracker.ietf.org/doc/html/rfc8297) - [[**Early Hints** 📂](./topics/early-hints.md)]
+- [x] [IETF RFC 8297 An HTTP Status Code for Indicating Hints](https://datatracker.ietf.org/doc/html/rfc8297) - [[**Early Hints** 📂](./topics/hints/early-hints.md)]
 - [ ] [IETF *DRAFT* - Secondary Certificate Authentication of HTTP Servers](https://www.ietf.org/archive/id/draft-egorbaty-httpbis-secondary-server-certs-01.html)
 - [ ] [IETF *DRAFT* - Resumable Uploads for HTTP](https://www.ietf.org/archive/id/draft-ietf-httpbis-resumable-upload-03.html)
 - [ ] [W3C - Permissions Policy](https://w3c.github.io/webappsec-permissions-policy/)

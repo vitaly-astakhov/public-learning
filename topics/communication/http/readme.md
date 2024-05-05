@@ -8,7 +8,9 @@
   - [Intermediaries 📂](./topics/intermediaries.md)
   - [Methods 📂](./topics/methods.md)
   - [Web Origin 📂](./topics/origin.md)
-  - [Referrer 📂](./topics/referrer-and-policy.md)
+  - **Hints**
+    - [Early Hints 📂](./topics/hints/early-hints.md)
+    - [Hints 📂](./topics/hints/hints.md)
   - [Representation Data 📂](./topics/representation-data.md)
   - [Header Fields 📂](./topics/headers-fields.md)
   - [Content Negotiation 📂](./topics/content-negotiation.md)
