@@ -49,7 +49,7 @@ ___
 
 ### [State Management (Cookie) 📂](./state-management-cookie.md)
 
-### [CSP 📂](./csp.md)
+### [CSP 📂](./policies/content-securiry-policy.md)
 
 ### [Early Hints 📂](./hints/early-hints.md)
 

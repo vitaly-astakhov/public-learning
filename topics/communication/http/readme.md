@@ -8,6 +8,9 @@
   - [Intermediaries 📂](./topics/intermediaries.md)
   - [Methods 📂](./topics/methods.md)
   - [Web Origin 📂](./topics/origin.md)
+  - **Policies**
+    - [Referrer Policy 📂](./topics/policies/referrer-policy.md)
+    - [Content Security Policy](./topics/policies/content-securiry-policy.md)
   - **Hints**
     - [Early Hints 📂](./topics/hints/early-hints.md)
     - [Hints 📂](./topics/hints/hints.md)
