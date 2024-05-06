@@ -16,6 +16,7 @@
 - [ ] [*DRAFT* - Web Monetization](https://webmonetization.org/specification/)
   - [Intro to Web Monetization](https://webmonetization.org/docs/)
 - [ ] [W3C - Web Application Manifest](https://www.w3.org/TR/appmanifest/)
+- [x] [W3C - Permissions](https://w3c.github.io/permissions) - [[**Permissions 📂**](./topics/permissions/readme.md)]
 
 - [ ] [SVGWG - Scalable Vector Graphics (SVG) 2](https://svgwg.org/svg2-draft/)
 

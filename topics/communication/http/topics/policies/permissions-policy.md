@@ -5,6 +5,8 @@
 ### Documentation
 
 - [Permissions Policy](https://w3c.github.io/webappsec-permissions-policy)
+- [Permissions Policy Explainer](https://github.com/w3c/webappsec-permissions-policy/blob/main/permissions-policy-explainer.md)
+- [Policy Controlled Features](https://github.com/w3c/webappsec-permissions-policy/blob/main/features.md)
 
 ## Table of contents
 
@@ -17,10 +19,29 @@
 - [HTML and API's](#html-and-apis)
   - [allow attribute](#allow-attribute)
   - [interface PermissionsPolicy](#interface-permissionspolicy)
+- [Permissions API 📂](../../../../frontend/core/html/topics/permissions/readme.md)
 
 ## Overview
 
-Permission Policy предназначена для того, чтобы разработчик мог выборочно включать, отключать или изменять поведение некоторых функций браузера и API-интерфейсов в своем приложении.
+Политика разрешений (*Permission Policy*) - это API веб-платформы, который дает веб-сайту возможность разрешать или блокировать использование функций браузера в его собственном фрейме или в iframe, которые он встраивает. Он работает по принципу, согласно которому документы верхнего уровня, как правило, должны иметь доступ к мощным веб-функциям (часто по усмотрению пользователя, которому необходимо предоставить разрешение), но встроенный контент не должен получать такой доступ автоматически. Документ, который встраивает другой документ, должен иметь возможность указывать, какие функции он доверяет использовать этому встроенному контенту.
+
+Примеры функций, которыми можно управлять с помощью политики разрешений, включают:
+
+- [Battery status](https://w3c.github.io/battery/#permissions-policy-integration)
+- [Client Hints](https://github.com/w3c/webappsec-permissions-policy/blob/main/permissions-policy-client-hints.md)
+- Encrypted-media decoding
+- [Fullscreen](https://fullscreen.spec.whatwg.org/#permissions-policy-integration)
+- [Geolocation](https://w3c.github.io/geolocation-api/#permissions-policy)
+- [Picture-in-picture](https://w3c.github.io/picture-in-picture/#permissions-policy)
+- [Sensors](https://w3c.github.io/sensors/#permissions-policy): Accelerometer, Ambient Light Sensor, Gyroscope, Magnetometer
+- [User media](https://w3c.github.io/mediacapture-main/#permissions-policy-integration): Camera, Microphone
+- [Video Autoplay](https://html.spec.whatwg.org/multipage/infrastructure.html#autoplay-feature)
+- [Web Payment Request](https://w3c.github.io/payment-request/#permissions-policy)
+- [WebMIDI](https://webaudio.github.io/web-midi-api/#permissions-policy-integration)
+- [WebUSB](https://wicg.github.io/webusb/#permissions-policy)
+- [WebXR](https://immersive-web.github.io/webxr/#permissions-policy)
+
+Полный список функций, которыми можно управлять с помощью политики разрешений доступен здесь: [Policy Controlled Features](https://github.com/w3c/webappsec-permissions-policy/blob/main/features.md)
 
 ### [Policy-controlled Features](https://w3c.github.io/webappsec-permissions-policy/#features)
 
