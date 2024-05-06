@@ -42,8 +42,8 @@ Permission Policy предназначена для того, чтобы раз�
 - `*` (aka wildcard)
 - **struct**
   - [**permissions-source-expression**](https://w3c.github.io/webappsec-permissions-policy/#permissions-source-expression)
-    - [scheme-source](https://w3c.github.io/webappsec-csp/#grammardef-scheme-source) - указывает источник, который соответствуют любому ресурсу, имеющему указанную схему. Например, "https:" / "custom-scheme:" / "another.custom-scheme:"
-    - [host-source](https://w3c.github.io/webappsec-csp/#grammardef-host-source) - например, "example.com" / "*.example.com" / "https://*.example.com:12/path/to/some"
+    - [scheme-source](https://w3c.github.io/webappsec-csp/#grammardef-scheme-source) (как в CPS) - указывает источник, который соответствуют любому ресурсу, имеющему указанную схему. Например, "https:" / "custom-scheme:" / "another.custom-scheme:"
+    - [host-source](https://w3c.github.io/webappsec-csp/#grammardef-host-source) (как в CPS) - например, "example.com" / "*.example.com" / "https://*.example.com:12/path/to/some"
   - [self-origin](https://w3c.github.io/webappsec-permissions-policy/#self-origin) - `'self'`
   - [src-origin](https://w3c.github.io/webappsec-permissions-policy/#src-origin) - `'src'`
 
