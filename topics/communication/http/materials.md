@@ -41,6 +41,7 @@ ___
 - [ ] [IETF *DRAFT* - Resumable Uploads for HTTP](https://www.ietf.org/archive/id/draft-ietf-httpbis-resumable-upload-03.html)
 - [x] [W3C - Permissions Policy](https://w3c.github.io/webappsec-permissions-policy/) - [[**Permissions Policy**](./topics/policies/permissions-policy.md)]
 - [ ] [IETF *DRAFT* - The Signature HTTP Authentication Scheme](https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-unprompted-auth-06)
+- [ ] [W3C Community - Prefetch](https://wicg.github.io/nav-speculation/prefetch.html)
 
 ___
 
