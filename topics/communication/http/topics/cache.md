@@ -182,3 +182,18 @@ ___
 Требования [спецификации HTTP Caching](https://www.rfc-editor.org/rfc/rfc9111) не обязательно применяются к тому, как приложения используют данные после их получения из кэша HTTP. Например, [механизм истории](https://developer.mozilla.org/en-US/docs/Web/API/History_API) может отображать предыдущее представление, даже если срок его действия истек, а приложение может использовать кэшированные данные другими способами, выходящими за рамки срока их актуальности.
 
 [Спецификация HTTP Caching](https://www.rfc-editor.org/rfc/rfc9111) не запрещает приложению учитывать кэширование HTTP; например, механизм истории может сообщать пользователю, что представление устарело, или он может выполнять директивы кэша (например, Cache-Control: no-store).
+
+## HTML and API's
+
+### Fetch API
+
+При работе с Fetch API в запросе можно задать [cache mode](https://fetch.spec.whatwg.org/#concept-request-cache-mode) через опцию запроса [`cache`](https://fetch.spec.whatwg.org/#dom-requestinit-cache).
+
+Режим кэширования [*cache mode*](https://fetch.spec.whatwg.org/#concept-request-cache-mode) для запросов является одним из следующих:
+
+- `"default"` (default)
+- `"no-store"` - Fetch ведет себя так, как будто HTTP-кэша вообще нет. Соответствует директиве запроса [`no-store`](https://www.rfc-editor.org/rfc/rfc9111#section-5.2.1.5).
+- `"reload"` - Функция Fetch ведет себя так, как будто на пути к сети нет HTTP-кэша. Следовательно, она создает обычный запрос и обновляет HTTP-кэш ответом.
+- `"no-cache"` - Fetch создает условный запрос (*conditional request*), если в HTTP-кэше есть ответ, и обычный запрос в противном случае. Затем он обновляет HTTP-кэш с помощью ответа. Соответствует директиве запроса [`no-cache`](https://www.rfc-editor.org/rfc/rfc9111#section-5.2.1.4).
+- `"force-cache"` - Fetch использует любой ответ в HTTP-кэше, соответствующий запросу, не обращая внимания на устаревание (*staleness*). Если ответа не было, он создает обычный запрос и обновляет HTTP-кэш ответом.
+- `"only-if-cached"` - Fetch использует любой ответ в HTTP-кэше, соответствующий запросу, не обращая внимания на устаревание (*staleness*). Если ответа не было, он возвращает сетевую ошибку. (Может использоваться только в том случае, если режим запроса ([*request mode*](https://fetch.spec.whatwg.org/#concept-request-mode)) - `"same-origin"`. Любые кэшированные переадресации будут выполняться при условии, что режим переадресации ([*redirect mode*](https://fetch.spec.whatwg.org/#concept-request-redirect-mode)) запроса является `"follow"` и переадресации не нарушают режим запроса ([*request mode*](https://fetch.spec.whatwg.org/#concept-request-mode))). Соответствует директиве запроса [`only-if-cached`](https://www.rfc-editor.org/rfc/rfc9111#section-5.2.1.7).

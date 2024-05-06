@@ -60,4 +60,10 @@
 
 ## HTML and API's
 
-При работе в HTML можно узнать кто referrer через аттрибут документа `document.referrer`. Подробнее: [HTML spec](https://html.spec.whatwg.org/multipage/dom.html#dom-document-referrer)
+При работе в HTML можно узнать кто referrer через аттрибут документа `document.referrer`. Подробнее: [HTML spec](https://html.spec.whatwg.org/multipage/dom.html#dom-document-referrer).
+
+### Fetch API
+
+При работе с Fetch API в запросе можно задать Referrer Policy через опцию запроса [`referrerPolicy`](https://fetch.spec.whatwg.org/#dom-requestinit-referrerpolicy). Так же можно передать свое значение в качестве referrer через через опцию запроса [`referrer`](https://fetch.spec.whatwg.org/#dom-requestinit-referrer) но только если назначение запроса и документ из которого делается запрос соответствует одному источнику (*same-origin*).
+
+Так же Fetch API предоставляет возможность получения [`referrer`](https://fetch.spec.whatwg.org/#dom-request-referrer) и [`referrerPolicy`](https://fetch.spec.whatwg.org/#dom-request-referrerpolicy) через аттрибуты созданного запроса запроса, если он был создан через конструктор [`new Request(input, initialOptions)`](https://fetch.spec.whatwg.org/#dom-request).
