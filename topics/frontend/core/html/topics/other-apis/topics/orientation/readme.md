@@ -1,0 +1,17 @@
+# Orientation API
+
+## Materials
+
+- [W3C - Screen Orientation](https://w3c.github.io/screen-orientation)
+
+### [Screen orientation types](https://w3c.github.io/screen-orientation/#screen-orientation-types)
+
+- [`any`](https://www.w3.org/TR/screen-orientation/#dfn-any) - Пользователь может поворачивать экран в любую сторону, разрешенную операционной системой устройства или конечным пользователем.
+- [`unlocked`](https://w3c.github.io/screen-orientation/#dfn-default-screen-orientation) (**default**) - Поведение устройства по умолчанию при разблокировке экрана ([*unlocked*](https://w3c.github.io/screen-orientation/#dfn-unlock-the-screen-orientation)) (т.е. активная блокировка ориентации ([*active orientation lock*](https://w3c.github.io/screen-orientation/#dfn-active-orientation-lock)) равна нулю). Эта ориентация определяется операционной системой устройства или пользовательским агентом, или контролируется конечным пользователем, или, возможно, задается установленным веб-приложением ([*installed web application*](https://www.w3.org/TR/appmanifest/#dfn-installed-web-application)). Например, когда ориентация экрана разблокирована и пользователь поворачивает устройство, некоторые устройства ограничивают изменение ориентации до [portrait-primary](https://w3c.github.io/screen-orientation/#dfn-primary), [landscape-primary](https://w3c.github.io/screen-orientation/#dfn-primary), и [landscape-secondary](https://w3c.github.io/screen-orientation/#dfn-secondary), но не до [portrait-secondary](https://w3c.github.io/screen-orientation/#dfn-secondary).
+- [`natural`](https://www.w3.org/TR/screen-orientation/#dfn-natural) - Наиболее естественная ориентация дисплея устройства, определяемая пользовательским агентом, пользователем, операционной системой или самим экраном. Например, устройство, которое пользователь рассматривает или держит вертикально в руке, обращено экраном к пользователю. Компьютерные мониторы обычно имеют альбомную ориентацию, в то время как мобильные телефоны обычно имеют портретную ориентацию.
+- [`landscape`](https://www.w3.org/TR/screen-orientation/#dfn-secondary) - Соотношение сторон экрана больше, чем ширина по высоте.
+- [`landscape-primary`](https://www.w3.org/TR/screen-orientation/#dfn-primary) - Естественная ([`natural`](https://w3c.github.io/screen-orientation/#dfn-natural)) ориентация экрана устройства - для типа [`landscape`](https://www.w3.org/TR/screen-orientation/#dfn-secondary).
+- [`landscape-secondary`](https://www.w3.org/TR/screen-orientation/#dfn-secondary) - Ориентация экрана устройства, противоположная основной ([`landscape-primary`](https://w3c.github.io/screen-orientation/#dfn-primary)) для типа [`landscape`](https://www.w3.org/TR/screen-orientation/#dfn-secondary).
+- [`portrait`](https://www.w3.org/TR/screen-orientation/#dfn-portrait) - Соотношение сторон экрана по высоте больше, чем по ширине.
+- [`portrait-primary`](https://www.w3.org/TR/screen-orientation/#dfn-primary) - Естественная ([`natural`](https://w3c.github.io/screen-orientation/#dfn-natural)) ориентация экрана устройства - для типа [portrait](https://w3c.github.io/screen-orientation/#dfn-portrait).
+- [`portrait-secondary`](https://www.w3.org/TR/screen-orientation/#dfn-secondary) - Ориентация экрана устройства, противоположная основной ([`portrait-primary`](https://w3c.github.io/screen-orientation/#dfn-primary)) для типа [`portrait`](https://w3c.github.io/screen-orientation/#dfn-portrait).
