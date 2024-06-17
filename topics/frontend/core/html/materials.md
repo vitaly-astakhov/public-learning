@@ -11,12 +11,11 @@
 - [ ] [W3C - Service Worker](https://w3c.github.io/ServiceWorker/)
 - [ ] [W3C - Secure Contexts](https://w3c.github.io/webappsec-secure-contexts)
 - [ ] [W3C - Trusted Types](https://w3c.github.io/trusted-types/dist/spec/)
-- [ ] [W3C - Geolocation API](https://w3c.github.io/geolocation-api/#geolocation_interface)
-- [ ] [W3C - Web Cryptography API](https://w3c.github.io/webcrypto/)
-- [ ] [*DRAFT* - Web Monetization](https://webmonetization.org/specification/)
-  - [Intro to Web Monetization](https://webmonetization.org/docs/)
-- [ ] [W3C - Web Application Manifest](https://www.w3.org/TR/appmanifest/)
+- [x] [W3C - Web Application Manifest](https://www.w3.org/TR/appmanifest/) - [[**Web Application Manifest 📂**](../../pwa/topics/web-app-manifest/readme.md)]
 - [x] [W3C - Permissions](https://w3c.github.io/permissions) - [[**Permissions 📂**](./topics/permissions/readme.md)]
+- [Other API's materials 📂](./topics/other-apis/materials.md)
+
+___
 
 - [ ] [SVGWG - Scalable Vector Graphics (SVG) 2](https://svgwg.org/svg2-draft/)
 
