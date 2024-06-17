@@ -20,5 +20,5 @@
   - [ ] yandex
 - **Other**
   - [ ] [Electron](https://electronjs.org/)
-  - [ ] PWA
+  - [ ] [PWA 📂](./pwa/readme.md)
   - [ ] [rxjs](https://github.com/ReactiveX/rxjs)
