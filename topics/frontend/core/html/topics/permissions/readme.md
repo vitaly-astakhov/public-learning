@@ -22,7 +22,7 @@
 
 - ["denied"](https://w3c.github.io/permissions/#dfn-denied) - Пользователь или пользовательский агент от имени пользователя отказал в доступе (*has denied access*) к этой мощной функции (*powerful feature*).
 - ["granted"](https://w3c.github.io/permissions/#dfn-granted) - Пользователь или пользовательский агент от имени пользователя дал явное разрешение ([*express permission*](https://w3c.github.io/permissions/#dfn-express-permission)) на использование мощной функции (*powerful feature*).
-- ["prompt"](https://w3c.github.io/permissions/#dfn-prompt) (default) - Пользователь не давал явного разрешения на использование этой функции (т.е. это то же самое, что ["denied"](https://w3c.github.io/permissions/#dfn-denied)). Это также означает, что если вызывающий абонент попытается воспользоваться функцией, пользовательский агент либо запросит у пользователя разрешение, либо доступ к функции будет "запрещен".
+- ["prompt"](https://w3c.github.io/permissions/#dfn-prompt) (**default**) - Пользователь не давал явного разрешения на использование этой функции (т.е. это то же самое, что ["denied"](https://w3c.github.io/permissions/#dfn-denied)). Это также означает, что если вызывающий абонент попытается воспользоваться функцией, пользовательский агент либо запросит у пользователя разрешение, либо доступ к функции будет "запрещен".
 
 ### Powerful features
 
