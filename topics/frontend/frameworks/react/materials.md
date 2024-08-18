@@ -12,6 +12,7 @@
 - [ ] [React Tricks: Fast, Fit and Fun](https://molefrog.com/notes/react-tricks)
 - [ ] [Writing Better React Code with the Separation of Command and Query Principle *(medium.com)*](https://itnext.io/writing-better-react-code-with-the-separation-of-command-and-query-principle-9b3639b5f6cf)
 - [ ] [REACT RECONCILIATION ALGORITHM - [medium]](https://medium.com/javarevisited/react-reconciliation-algorithm-86e3e22c1b40)
+- [ ] [More Than You Need to Know About ReactDOM.­flushSync](https://julesblom.com/writing/flushsync)
 
 ## Books
 

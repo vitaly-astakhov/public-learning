@@ -1,4 +1,4 @@
-# Documentation
+# Documentation [^1]
 
 ## Navigation
 
@@ -7,3 +7,5 @@
 - [ ] Другие SLDC tools.
 
 ### [Materials 📂](./materials.md)
+
+[^1]: Другое название: **Technical writing**
