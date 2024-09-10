@@ -7,3 +7,11 @@
 ## Tutorials
 
 - [ ] [Learn Accessibility](https://web.dev/learn/accessibility)
+
+## Course
+
+- [ ] [Practical Accessibility - *by Sara Soueidan*](https://practical-accessibility.today/)
+
+## Videos
+
+- [The “Other” C in CSS | Sara Soueidan | CSS Day 2024] [](https://www.youtube.com/watch?v=ob_M_qXeDVE)
