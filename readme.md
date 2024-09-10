@@ -12,31 +12,31 @@
 
 ## Navigation
 
-- [Frontend 📂](./learning-material/frontend/readme.md)
-- [Databases 📂](./learning-material/databases/readme.md)
-- [Backend 📂](./learning-material/backend/readme.md)
-- [Code quality 📂](./learning-material/code-quality/readme.md)
-- [Quality Assurance / Testing 📂](./learning-material/qa/readme.md)
-- [Documentation 📂](./learning-material/documentation/readme.md)
-- [Source code management (SCM) 📂](./learning-material/scm/readme.md)
-- [GitOps 📂](./learning-material/git-ops/readme.md)
-- [DevOps 📂](./learning-material/dev-ops/readme.md)
+- [Frontend 📂](./topics/frontend/readme.md)
+- [Databases 📂](./topics/databases/readme.md)
+- [Backend 📂](./topics/backend/readme.md)
+- [Code quality 📂](./topics/code-quality/readme.md)
+- [Quality Assurance / Testing 📂](./topics/qa/readme.md)
+- [Documentation 📂](./topics/documentation/readme.md)
+- [Source code management (SCM) 📂](./topics/scm/readme.md)
+- [GitOps 📂](./topics/git-ops/readme.md)
+- [DevOps 📂](./topics/dev-ops/readme.md)
 
 ___
 
-- [Architecture and concepts 📂](./learning-material/architecture/readme.md)
-- [Communication 📂](./learning-material/communication/readme.md)
-- [Authentication 📂](./learning-material/authentication/readme.md)
+- [Architecture and concepts 📂](./topics/architecture/readme.md)
+- [Communication 📂](./topics/communication/readme.md)
+- [Authentication 📂](./topics/authentication/readme.md)
 
 ___
 
-- [Product management 📂](./learning-material/product-management/readme.md)
-- [Design 📂](./learning-material/design/readme.md)
+- [Product management 📂](./topics/product-management/readme.md)
+- [Design 📂](./topics/design/readme.md)
 
 ___
 
-- [Algorithms 📂](./learning-material/algorithms/readme.md)
-- [Other 📂](./learning-material/other/readme.md)
+- [Algorithms 📂](./topics/algorithms/readme.md)
+- [Other 📂](./topics/other/readme.md)
 
 ## Issues
 
