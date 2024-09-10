@@ -8,6 +8,6 @@
 
 ### GitHub Actions
 
-- [ ] [TODO to Issue](https://github.com/marketplace/actions/todo-to-issue)
+- [x] [TODO to Issue](https://github.com/marketplace/actions/todo-to-issue)
 
 ### [Materials 📂](./materials.md)

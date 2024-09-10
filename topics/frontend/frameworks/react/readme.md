@@ -24,8 +24,8 @@
       - [ ] [React Charts](https://react-charts.tanstack.com/)
       - [ ] [recharts](https://github.com/recharts/recharts)
       - [ ] [echarts](https://github.com/apache/echarts)
-      - [ ] [D3](https://d3js.org/)
-      - [ ] [Chart.js](https://www.chartjs.org/)
+      - [x] [D3](https://d3js.org/)
+      - [x] [Chart.js](https://www.chartjs.org/)
       - [ ] [nivo](https://github.com/plouc/nivo)
     - **Graphs**
       - [ ] [sigma.js](https://github.com/jacomyal/sigma.js)
