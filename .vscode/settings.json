@@ -1,10 +1,8 @@
 {
-  "conventionalCommits.scopes": [
-    "http",
-    "html"
-  ],
   "workbench.editor.customLabels.patterns": {
       "**/readme.md": "${dirname}",
-      "**/examples/*.md": "${dirname(1)} - EXAMPLE"
-    },
+      "**/examples/*.md": "${dirname(1)} - EXAMPLE",
+      "**/notes/*.md": "${filename} - NOTE",
+      "**/notes.md": "${dirname} - NOTE",
+  },
 }
