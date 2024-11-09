@@ -17,6 +17,7 @@
 - [ ] [🔑 OAuth 2.0 flows explained in GIFs](https://dev.to/hem/oauth-2-0-flows-explained-in-gifs-2o7a)
 - [ ] [The Complete List of OAuth 2 Grants](https://fusionauth.io/articles/oauth/complete-list-oauth-grants)
 - [ ] [The complete guide to protecting your APIs with OAuth2 (part 1)](https://stackoverflow.blog/2022/12/22/the-complete-guide-to-protecting-your-apis-with-oauth2/)
+- [ ] [OAuth 2.0 (3LO) apps](https://developer.atlassian.com/cloud/jira/platform/oauth-2-3lo-apps/)
 
 ## Playgrounds
 

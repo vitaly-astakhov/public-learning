@@ -1,3 +1,3 @@
-# Kubernetes
+# Nginx
 
 ## [Materials 📂](./materials.md)

@@ -27,3 +27,7 @@
 - [javascript-algorithms](https://github.com/trekhleb/javascript-algorithms)
 - [JavaScript](https://github.com/TheAlgorithms/JavaScript)
 - [TypeScript](https://github.com/TheAlgorithms/TypeScript)
+
+## Other resources
+
+- <https://education.yandex.ru/handbook/algorithms>
